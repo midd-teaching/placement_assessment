@@ -193,6 +193,12 @@ bind_rows(
   temp |> filter(week == 1), 
   temp |> filter(week == 2 & !(id %in% in_both))
 ) |> 
+  mutate(id = if_else(
+    id == "00815014" & level == "3", 
+    "0081501x", 
+    id
+    )
+  ) |>
   transmute(id, level, year = 2023, lextale_avg) |> 
   write_csv(here("data", "tidy", "lextale_tidy_2023.csv"))
 ```

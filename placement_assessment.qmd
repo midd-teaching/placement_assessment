@@ -11,6 +11,7 @@ execute:
 ```{r}
 #| label: setup
 source(here::here("scripts", "01_helpers.R"))
+source(here("scripts", "99_small_data.R"))
 ```
 
 
@@ -30,5 +31,13 @@ dir_ls(here("scripts"), regexp = ".html") |>
     link = glue("- [{topic}]({value})")
   ) |> 
   pull(link)
+```
+
+```{r}
+#| label: tbl-status
+
+n_s |> 
+  select(year, everything()) |> 
+  knitr::kable()
 ```
 
