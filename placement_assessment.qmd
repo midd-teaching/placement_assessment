@@ -1,0 +1,34 @@
+---
+title: "Middlebury placement assessment"
+author: "Joseph V. Casillas"
+date: today
+execute: 
+  warning: false
+  message: false
+  echo: false
+---
+
+```{r}
+#| label: setup
+source(here::here("scripts", "01_helpers.R"))
+```
+
+
+```{r}
+#| label: toc
+#| results: 'asis'
+
+dir_ls(here("scripts"), regexp = ".html") |> 
+  as_tibble() |> 
+  mutate(
+    value = str_remove(value, pattern = here("")), 
+    topic = str_remove(value, pattern = "scripts/"), 
+    topic = str_remove(topic, pattern = "(\\d+)_"), 
+    topic = str_remove(topic, pattern = ".html"), 
+    topic = str_replace_all(topic, "_", " "), 
+    topic = str_to_sentence(topic), 
+    link = glue("- [{topic}]({value})")
+  ) |> 
+  pull(link)
+```
+

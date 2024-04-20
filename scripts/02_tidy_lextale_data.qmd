@@ -1,0 +1,199 @@
+---
+title: "Middlebury placement assessment"
+subtitle: "Tidy LexTALE data"
+author: "Joseph V. Casillas"
+date: today
+execute: 
+  warning: false
+  message: false
+---
+
+Load libraries and helper functions. 
+
+```{r}
+#| label: setup
+source(here::here("scripts", "01_helpers.R"))
+```
+
+Load exported LexTALE data from canvas quiz and individual files from old quiz. 
+
+```{r}
+#| label: load-data
+temp <- read_csv(
+  here("data", "raw", "LexTALE II Quiz Student Analysis Report.csv")
+  ) |> 
+  clean_names()
+
+temp_individual <- dir_ls(
+  here("data", "raw", "individual_files"), 
+  regexp = ".csv"
+  ) |> 
+  read_csv()
+```
+
+Tidy data. 
+
+```{r}
+#| label: tidy-data
+dat <- temp |> 
+  select(
+    name:id, 
+    section, 
+    submitted, 
+    ends_with(names(item_cor_response)), 
+    -c("sis_id", "section_id", "section_sis_id", "attempt")
+  ) |> 
+  pivot_longer(
+    cols = -c("name", "id", "section", "submitted"), 
+    names_to = "item", 
+    values_to = "response"
+  ) |> 
+  separate(col = item, into = c("trash", "item"), sep = "_") |> 
+  select(-trash) 
+
+dat_individual <- temp_individual |> 
+  mutate(name = id, id = NA, section = NA) |> 
+  select(
+    name, 
+    id, 
+    section, 
+    submitted = date, 
+    item, 
+    response, 
+    is_correct
+  )
+```
+
+Score LexTALE task. 
+
+```{r}
+#| label: score-lextale
+
+lt_complete <- bind_rows(
+  dat |> 
+    left_join( 
+      tibble(item = names(item_cor_response), is_real = item_cor_response), 
+      by = "item"
+    ) |> 
+    mutate(
+      is_correct = case_when(
+        response == "Fake" & is_real == 0 ~ 1, 
+        response == "Fake" & is_real == 1 ~ 0, 
+        response == "Real" & is_real == 0 ~ 0, 
+        response == "Real" & is_real == 1 ~ 1, 
+        is.na(response) ~ 0
+      )
+    ) |> 
+    mutate(
+      is_na = if_else(is.na(is_correct), TRUE, FALSE), 
+      real_correct    = if_else(is_real == 1 & is_correct == 1, 1, 0), 
+      real_incorrect  = if_else(is_real == 1 & is_correct == 0, 1, 0), 
+      nonse_correct   = if_else(is_real == 0 & is_correct == 1, 1, 0), 
+      nonse_incorrect = if_else(is_real == 0 & is_correct == 0, 1, 0)
+    ) |> 
+    group_by(name, id, section, submitted) |>
+    summarize(
+      totals = n(), 
+      real_correct = sum(real_correct, na.rm = TRUE), 
+      real_incorrect = sum(real_incorrect, na.rm = TRUE), 
+      nonse_correct = sum(nonse_correct, na.rm = TRUE), 
+      nonse_incorrect = sum(nonse_incorrect, na.rm = TRUE), .groups = "drop"
+    ) |> 
+    mutate(
+      n_real = real_correct + real_incorrect, 
+      n_nonse = nonse_correct + nonse_incorrect, 
+      n = n_real + n_nonse, 
+      lextale_avg = score_lextale(
+        n_real = n_real, 
+        n_nonse = n_nonse,
+        n_real_correct = real_correct, 
+        n_nonse_correct = nonse_correct
+      )
+    ), 
+
+  dat_individual |> 
+    left_join( 
+      tibble(item = names(item_cor_response), is_real = item_cor_response), 
+      by = "item"
+    ) |> 
+    mutate(
+      is_correct = case_when(
+        response == "Fake" & is_real == 0 ~ 1, 
+        response == "Fake" & is_real == 1 ~ 0, 
+        response == "Real" & is_real == 0 ~ 0, 
+        response == "Real" & is_real == 1 ~ 1, 
+        is.na(response) ~ 0
+      )
+    ) |> 
+    mutate(
+      is_na = if_else(is.na(is_correct), TRUE, FALSE), 
+      real_correct    = if_else(is_real == 1 & is_correct == 1, 1, 0), 
+      real_incorrect  = if_else(is_real == 1 & is_correct == 0, 1, 0), 
+      nonse_correct   = if_else(is_real == 0 & is_correct == 1, 1, 0), 
+      nonse_incorrect = if_else(is_real == 0 & is_correct == 0, 1, 0)
+    ) |> 
+    group_by(name, id, section, submitted) |>
+    summarize(
+      totals = n(), 
+      real_correct = sum(real_correct, na.rm = TRUE), 
+      real_incorrect = sum(real_incorrect, na.rm = TRUE), 
+      nonse_correct = sum(nonse_correct, na.rm = TRUE), 
+      nonse_incorrect = sum(nonse_incorrect, na.rm = TRUE), .groups = "drop"
+    ) |> 
+    mutate(
+      n_real = real_correct + real_incorrect, 
+      n_nonse = nonse_correct + nonse_incorrect, 
+      n = n_real + n_nonse, 
+      lextale_avg = score_lextale(
+        n_real = n_real, 
+        n_nonse = n_nonse,
+        n_real_correct = real_correct, 
+        n_nonse_correct = nonse_correct
+      )
+    )
+)
+```
+
+
+A few descriptives. 
+
+```{r}
+#| label: descriptives
+
+
+
+```
+
+
+Save as .csv in `./data/tidy/`. 
+
+```{r}
+#| label: save-data
+
+write_csv(lt_complete, here("data", "tidy", "lextale_tidy_2024.csv"))
+```
+
+
+Clean up LexTALE data from 2023.
+
+```{r}
+#| label: lt-2023
+# Load data
+temp <- readRDS(here("data", "raw", "lt_midd_2023.rds")) 
+
+# Get vector of IDs present in week 1 and week 2
+in_both <- temp |> 
+  group_by(id) |> 
+  count() |> 
+  filter(n == 2) |> 
+  pull(id)
+
+# Generate DF with only unique IDs from weeks 1 and 2
+bind_rows(
+  temp |> filter(week == 1), 
+  temp |> filter(week == 2 & !(id %in% in_both))
+) |> 
+  transmute(id, level, year = 2023, lextale_avg) |> 
+  write_csv(here("data", "tidy", "lextale_tidy_2023.csv"))
+```
+

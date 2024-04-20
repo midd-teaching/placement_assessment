@@ -1,0 +1,98 @@
+---
+title: "Middlebury placement assessment"
+subtitle: "Tidy placement exam data"
+author: "Joseph V. Casillas"
+date: today
+execute: 
+  warning: false
+  message: false
+---
+
+Load libraries and helper functions. 
+
+```{r}
+#| label: setup
+source(here::here("scripts", "01_helpers.R"))
+```
+
+Load data. 
+
+```{r}
+#| label: load-data
+
+temp <- dir_ls(here("data", "raw"), regexp = ".csv") |> 
+  as_tibble() |> 
+  mutate(ignore = str_detect(value, "Grades")) |> 
+  filter(ignore == TRUE) |> 
+  pull(value) |> 
+  read_csv() |> 
+  clean_names()
+
+```
+
+Tidy up. 
+
+```{r}
+#| label: tidy-data
+
+placement_df <- temp |> 
+  slice(-c(1:2)) |> 
+  select(
+    student, 
+    id, 
+    section, 
+    score = x2024_spanish_school_7_week_placement_test_83709
+  ) |> 
+  separate(student, into = c("last_name", "first_name"), sep = ",") |> 
+  mutate(
+    first_name = str_remove_all(first_name, " "), 
+    score = as.numeric(score)
+  ) |> 
+  unite(col = name, first_name, last_name, sep = " ")
+```
+
+Save as .csv to `./data/tidy/`. 
+
+```{r}
+#| label: save-data
+write_csv(placement_df, here("data", "tidy", "placement_tidy_2024.csv"))
+```
+
+
+Clean up placement data from 2023. 
+
+```{r}
+#| label: placement-2023
+
+bind_rows(
+  read_csv(here("data", "raw", "2023_placement_ug.csv")) |> 
+    clean_names() |> 
+    transmute(id, name, placement_score) |> 
+    separate(name, into = c("last_name", "first_name"), sep = ",") |> 
+    distinct() |> 
+    transmute(id, first_name, last_name, 
+              placement_score = na_if(placement_score, "-")), 
+  
+  read_csv(here("data", "raw", "2023_placement_gr.csv")) |> 
+    clean_names() |> 
+    transmute(id, name, placement_score = NA) |> 
+    separate(name, into = c("last_name", "first_name"), sep = ",") |> 
+    distinct() |> 
+    transmute(id, first_name, last_name, placement_score)
+) |> 
+  left_join(
+    read_csv(here("data", "raw", "2023_placement.csv")) |> 
+      clean_names() |> 
+      transmute(
+        first_name = nombre, 
+        last_name = apellido, 
+        level = reg_pre_lim, 
+        placement_score = examen
+      ) |> 
+    filter(!is.na(placement_score)), 
+    by = c("first_name", "last_name")
+  ) |> 
+  transmute(id, placement_score = placement_score.x) |> 
+  write_csv(here("data", "tidy", "placement_tidy_2023.csv"))
+```
+

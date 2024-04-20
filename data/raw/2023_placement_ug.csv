@@ -1,0 +1,502 @@
+Term,ID,Name,Placement score,Sts,Type,Program 1,Grad Trm,Stu Lev,Camp,CRN,Course,Course Title,Crs Attr,Units Reg,Wks,Email (Stu-MNET)
+202360,00712312,"Abrams,Zack Abrams",37,AS,U,LS7ND,202390,UG,DJS,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,zabrams@middlebury.edu
+202360,00712312,"Abrams,Zack Abrams",37,AS,U,LS7ND,202390,UG,DJS,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,zabrams@middlebury.edu
+202360,00712312,"Abrams,Zack Abrams",37,AS,U,LS7ND,202390,UG,DJS,60225,SPAN 3431 A,Communication Through Theater,,1,7,zabrams@middlebury.edu
+202360,00804546,"Agrawal,Muskan",20,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,magrawal@middlebury.edu
+202360,00804546,"Agrawal,Muskan",20,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,magrawal@middlebury.edu
+202360,00804546,"Agrawal,Muskan",20,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,magrawal@middlebury.edu
+202360,00814387,"Anderson,Charles",-,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,charlesa@middlebury.edu
+202360,00814387,"Anderson,Charles",-,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,charlesa@middlebury.edu
+202360,00814387,"Anderson,Charles",-,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,charlesa@middlebury.edu
+202360,00814785,"Anderson,Jack",21,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,janderson@middlebury.edu
+202360,00814785,"Anderson,Jack",21,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,janderson@middlebury.edu
+202360,00814785,"Anderson,Jack",21,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,janderson@middlebury.edu
+202360,00675444,"Anderson,Molly",-,AS,A,LS7ND,,UG,M,,  ,,,,,mollya@middlebury.edu
+202360,00814122,"Angiulo,Nick",33,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,nangiulo@middlebury.edu
+202360,00814122,"Angiulo,Nick",33,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,nangiulo@middlebury.edu
+202360,00814122,"Angiulo,Nick",33,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,nangiulo@middlebury.edu
+202360,00815850,"Arzate,Michael",27,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,marzate@middlebury.edu
+202360,00815850,"Arzate,Michael",27,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,marzate@middlebury.edu
+202360,00815850,"Arzate,Michael",27,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,marzate@middlebury.edu
+202360,00760174,"Asher,Innes",23,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,iasher@middlebury.edu
+202360,00760174,"Asher,Innes",23,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,iasher@middlebury.edu
+202360,00760174,"Asher,Innes",23,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,iasher@middlebury.edu
+202360,00759888,"Auerbach,Sophie",43,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,sauerbach@middlebury.edu
+202360,00759888,"Auerbach,Sophie",43,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,sauerbach@middlebury.edu
+202360,00759888,"Auerbach,Sophie",43,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,sauerbach@middlebury.edu
+202360,00816375,"Baker,Dylan",24,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,dylanb@middlebury.edu
+202360,00816375,"Baker,Dylan",24,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,dylanb@middlebury.edu
+202360,00816375,"Baker,Dylan",24,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,dylanb@middlebury.edu
+202360,00802780,"Bates,David",39,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,dbates@middlebury.edu
+202360,00802780,"Bates,David",39,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,dbates@middlebury.edu
+202360,00802780,"Bates,David",39,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,dbates@middlebury.edu
+202360,00803961,"Behdad,David",-,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,dbehdad@middlebury.edu
+202360,00803961,"Behdad,David",-,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,dbehdad@middlebury.edu
+202360,00803961,"Behdad,David",-,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,dbehdad@middlebury.edu
+202360,00816351,"Bissell,Bri",24,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,bbissell@middlebury.edu
+202360,00816351,"Bissell,Bri",24,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,bbissell@middlebury.edu
+202360,00816351,"Bissell,Bri",24,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,bbissell@middlebury.edu
+202360,00815296,"Bittar,Peter",14,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,pbittar@middlebury.edu
+202360,00815296,"Bittar,Peter",14,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,pbittar@middlebury.edu
+202360,00815296,"Bittar,Peter",14,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,pbittar@middlebury.edu
+202360,00804548,"Bjorkman,Drake",-,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,dbjorkman@middlebury.edu
+202360,00804548,"Bjorkman,Drake",-,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,dbjorkman@middlebury.edu
+202360,00804548,"Bjorkman,Drake",-,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,dbjorkman@middlebury.edu
+202360,00803587,"Booth,Sam",11,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,sbooth@middlebury.edu
+202360,00803587,"Booth,Sam",11,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,sbooth@middlebury.edu
+202360,00803587,"Booth,Sam",11,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,sbooth@middlebury.edu
+202360,00523291,"Bright,Melissa",25,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,mbright@middlebury.edu
+202360,00523291,"Bright,Melissa",25,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,mbright@middlebury.edu
+202360,00523291,"Bright,Melissa",25,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,mbright@middlebury.edu
+202360,00811511,"Brinkman,Kelly",19,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,kbrinkman@middlebury.edu
+202360,00811511,"Brinkman,Kelly",19,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,kbrinkman@middlebury.edu
+202360,00811511,"Brinkman,Kelly",19,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,kbrinkman@middlebury.edu
+202360,00803588,"Brown,Chasitie",32,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,chasitieb@middlebury.edu
+202360,00803588,"Brown,Chasitie",32,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,chasitieb@middlebury.edu
+202360,00803588,"Brown,Chasitie",32,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,chasitieb@middlebury.edu
+202360,00815685,"Brown,Edward",16,AS,V,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,edwardb@middlebury.edu
+202360,00815685,"Brown,Edward",16,AS,V,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,edwardb@middlebury.edu
+202360,00815685,"Brown,Edward",16,AS,V,LS7ND,,UG,M,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,edwardb@middlebury.edu
+202360,00776631,"Bryson,Luci",39,AS,U,LS7ND,,UG,DJS,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,mbryson@middlebury.edu
+202360,00776631,"Bryson,Luci",39,AS,U,LS7ND,,UG,DJS,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,mbryson@middlebury.edu
+202360,00776631,"Bryson,Luci",39,AS,U,LS7ND,,UG,DJS,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,mbryson@middlebury.edu
+202360,00773378,"Burke,Sofia",39,AS,V,LS7ND,,UG,M,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,sdburke@middlebury.edu
+202360,00773378,"Burke,Sofia",39,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,sdburke@middlebury.edu
+202360,00773378,"Burke,Sofia",39,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,sdburke@middlebury.edu
+202360,00815533,"Burton,Nicholas",-,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,nburton@middlebury.edu
+202360,00815533,"Burton,Nicholas",-,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,nburton@middlebury.edu
+202360,00815533,"Burton,Nicholas",-,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,nburton@middlebury.edu
+202360,00804977,"Cano,Ellie",28,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,ecano@middlebury.edu
+202360,00804977,"Cano,Ellie",28,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,ecano@middlebury.edu
+202360,00804977,"Cano,Ellie",28,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,ecano@middlebury.edu
+202360,00321042,"Carter,Alexandra",39,AS,V,LS7ND,,UG,BL,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,ac4@middlebury.edu
+202360,00321042,"Carter,Alexandra",39,AS,V,LS7ND,,UG,BL,60159,SPAN 3411 A,Informal Written Spanish,,1,7,ac4@middlebury.edu
+202360,00321042,"Carter,Alexandra",39,AS,V,LS7ND,,UG,BL,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,ac4@middlebury.edu
+202360,00815936,"Carver,Derick",-,AS,V,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,dcarver@middlebury.edu
+202360,00815936,"Carver,Derick",-,AS,V,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,dcarver@middlebury.edu
+202360,00815936,"Carver,Derick",-,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,dcarver@middlebury.edu
+202360,00273868,"Chang,Amy",-,AS,V,LS7ND,,UG,ONL,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,amyc@middlebury.edu
+202360,00273868,"Chang,Amy",-,AS,V,LS7ND,,UG,ONL,60159,SPAN 3411 A,Informal Written Spanish,,1,7,amyc@middlebury.edu
+202360,00273868,"Chang,Amy",-,AS,V,LS7ND,,UG,ONL,60225,SPAN 3431 A,Communication Through Theater,,1,7,amyc@middlebury.edu
+202360,00565007,"Chang,Briana",-,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,bachang@middlebury.edu
+202360,00565007,"Chang,Briana",-,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,bachang@middlebury.edu
+202360,00565007,"Chang,Briana",-,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,bachang@middlebury.edu
+202360,00802375,"Chen,Artemis",28,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,artemisc@middlebury.edu
+202360,00802375,"Chen,Artemis",28,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,artemisc@middlebury.edu
+202360,00802375,"Chen,Artemis",28,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,artemisc@middlebury.edu
+202360,00815510,"Cid,Christine",19,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,ccid@middlebury.edu
+202360,00815510,"Cid,Christine",19,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,ccid@middlebury.edu
+202360,00815510,"Cid,Christine",19,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,ccid@middlebury.edu
+202360,00804978,"Colavecchi,Carly",-,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,ccolavecchi@middlebury.edu
+202360,00804978,"Colavecchi,Carly",-,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,ccolavecchi@middlebury.edu
+202360,00804978,"Colavecchi,Carly",-,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,ccolavecchi@middlebury.edu
+202360,00815854,"Cormack,Noel",-,AS,V,LS7ND,,UG,M,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,ncormack@middlebury.edu
+202360,00815854,"Cormack,Noel",-,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,ncormack@middlebury.edu
+202360,00815854,"Cormack,Noel",-,AS,V,LS7ND,,UG,M,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,ncormack@middlebury.edu
+202360,00802581,"Crary,Andrea",-,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,acrary@middlebury.edu
+202360,00802581,"Crary,Andrea",-,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,acrary@middlebury.edu
+202360,00802581,"Crary,Andrea",-,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,acrary@middlebury.edu
+202360,00739988,"Cuatlatl,Brandon",37,AS,U,LS7ND,,UG,DJS,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,bcuatlatl@middlebury.edu
+202360,00739988,"Cuatlatl,Brandon",37,AS,U,LS7ND,,UG,DJS,60191,SPAN 3405 A,Creative Writing,,1,7,bcuatlatl@middlebury.edu
+202360,00739988,"Cuatlatl,Brandon",37,AS,U,LS7ND,,UG,DJS,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,bcuatlatl@middlebury.edu
+202360,00776785,"Danne,Michael",33,AS,U,LS7ND,,UG,DJS,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,mdanne@middlebury.edu
+202360,00776785,"Danne,Michael",33,AS,U,LS7ND,,UG,DJS,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,mdanne@middlebury.edu
+202360,00776785,"Danne,Michael",33,AS,U,LS7ND,,UG,DJS,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,mdanne@middlebury.edu
+202360,00815536,"Dayton,Kaitlin",41,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,kdayton@middlebury.edu
+202360,00815536,"Dayton,Kaitlin",41,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,kdayton@middlebury.edu
+202360,00815536,"Dayton,Kaitlin",41,AS,V,LS7ND,,UG,M,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,kdayton@middlebury.edu
+202360,00815062,"Decker,Clare",39,AS,V,LS7ND,,UG,M,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,cdecker@middlebury.edu
+202360,00815062,"Decker,Clare",39,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,cdecker@middlebury.edu
+202360,00815062,"Decker,Clare",39,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,cdecker@middlebury.edu
+202360,00771852,"Denniston,Harper",30,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,hdenniston@middlebury.edu
+202360,00771852,"Denniston,Harper",30,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,hdenniston@middlebury.edu
+202360,00771852,"Denniston,Harper",30,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,hdenniston@middlebury.edu
+202360,00815655,"DiBlasio,Thomas",23,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,tdiblasio@middlebury.edu
+202360,00815655,"DiBlasio,Thomas",23,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,tdiblasio@middlebury.edu
+202360,00815655,"DiBlasio,Thomas",23,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,tdiblasio@middlebury.edu
+202360,00769152,"Diop,Fanta",36,AS,U,LS7ND,,UG,DJS,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,fdiop@middlebury.edu
+202360,00769152,"Diop,Fanta",36,AS,U,LS7ND,,UG,DJS,60159,SPAN 3411 A,Informal Written Spanish,,1,7,fdiop@middlebury.edu
+202360,00769152,"Diop,Fanta",36,AS,U,LS7ND,,UG,DJS,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,fdiop@middlebury.edu
+202360,00801950,"Distasio,Joey",35,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,jdistasio@middlebury.edu
+202360,00801950,"Distasio,Joey",35,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,jdistasio@middlebury.edu
+202360,00801950,"Distasio,Joey",35,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,jdistasio@middlebury.edu
+202360,00766535,"Dolcino,Cristina",29,AS,V,LS7ND,,UG,ONL,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,cdolcino@middlebury.edu
+202360,00766535,"Dolcino,Cristina",29,AS,V,LS7ND,,UG,ONL,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,cdolcino@middlebury.edu
+202360,00766535,"Dolcino,Cristina",29,AS,V,LS7ND,,UG,ONL,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,cdolcino@middlebury.edu
+202360,00755252,"Douglas,Swara",43,AS,U,LS7ND,,UG,DJS,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,scdouglas@middlebury.edu
+202360,00755252,"Douglas,Swara",43,AS,U,LS7ND,,UG,DJS,60191,SPAN 3405 A,Creative Writing,,1,7,scdouglas@middlebury.edu
+202360,00755252,"Douglas,Swara",43,AS,U,LS7ND,,UG,DJS,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,scdouglas@middlebury.edu
+202360,00064230,"Doyle,Thomas",17,AS,V,LS7ND,,UG,DJS,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,tfdoyle@middlebury.edu
+202360,00064230,"Doyle,Thomas",17,AS,V,LS7ND,,UG,DJS,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,tfdoyle@middlebury.edu
+202360,00064230,"Doyle,Thomas",17,AS,V,LS7ND,,UG,DJS,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,tfdoyle@middlebury.edu
+202360,00423848,"Duran,Lauren",44,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,lduran@middlebury.edu
+202360,00423848,"Duran,Lauren",44,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,lduran@middlebury.edu
+202360,00423848,"Duran,Lauren",44,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,lduran@middlebury.edu
+202360,00803146,"Enrique Shakespeare,Ella",25,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,eenriqueshakespeare@middlebury.edu
+202360,00803146,"Enrique Shakespeare,Ella",25,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,eenriqueshakespeare@middlebury.edu
+202360,00803146,"Enrique Shakespeare,Ella",25,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,eenriqueshakespeare@middlebury.edu
+202360,00769366,"Fairooz,Afra",30,AS,U,LS7ND,,UG,DJS,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,afairooz@middlebury.edu
+202360,00769366,"Fairooz,Afra",30,AS,U,LS7ND,,UG,DJS,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,afairooz@middlebury.edu
+202360,00769366,"Fairooz,Afra",30,AS,U,LS7ND,,UG,DJS,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,afairooz@middlebury.edu
+202360,00802762,"Ferbel,Germán",-,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,gferbel@middlebury.edu
+202360,00802762,"Ferbel,Germán",-,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,gferbel@middlebury.edu
+202360,00802762,"Ferbel,Germán",-,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,gferbel@middlebury.edu
+202360,00802845,"Fitzsimmons Christensen,Iris",30,AS,V,LS7ND,,UG,M,60087,SPAN 3301 B,Adv Intermed SP:Comm in Contxt,,1,7,ifitzsimmonschristen@middlebury.edu
+202360,00802845,"Fitzsimmons Christensen,Iris",30,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,ifitzsimmonschristen@middlebury.edu
+202360,00784899,"Frato-Sweeney,Ellie",35,AS,V,LS7ND,,UG,N,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,efratosweeney@middlebury.edu
+202360,00784899,"Frato-Sweeney,Ellie",35,AS,V,LS7ND,,UG,N,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,efratosweeney@middlebury.edu
+202360,00784899,"Frato-Sweeney,Ellie",35,AS,V,LS7ND,,UG,N,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,efratosweeney@middlebury.edu
+202360,00815857,"Friese-Merritt,Taylor",36,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,tfriesemerritt@middlebury.edu
+202360,00815857,"Friese-Merritt,Taylor",36,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,tfriesemerritt@middlebury.edu
+202360,00815857,"Friese-Merritt,Taylor",36,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,tfriesemerritt@middlebury.edu
+202360,00803964,"Gannon,William",39,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,wgannon@middlebury.edu
+202360,00803964,"Gannon,William",39,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,wgannon@middlebury.edu
+202360,00803964,"Gannon,William",39,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,wgannon@middlebury.edu
+202360,00803150,"Garrett,Allie",32,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,agarrett@middlebury.edu
+202360,00803150,"Garrett,Allie",32,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,agarrett@middlebury.edu
+202360,00803150,"Garrett,Allie",32,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,agarrett@middlebury.edu
+202360,00802381,"Gifford,Shannon",22,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,sgifford@middlebury.edu
+202360,00802381,"Gifford,Shannon",22,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,sgifford@middlebury.edu
+202360,00802381,"Gifford,Shannon",22,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,sgifford@middlebury.edu
+202360,00804280,"Gonnella,Brandon",16,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,bgonnella@middlebury.edu
+202360,00804280,"Gonnella,Brandon",16,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,bgonnella@middlebury.edu
+202360,00804280,"Gonnella,Brandon",16,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,bgonnella@middlebury.edu
+202360,00698431,"Gonzalez,Jason",42,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,jasong@middlebury.edu
+202360,00698431,"Gonzalez,Jason",42,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,jasong@middlebury.edu
+202360,00698431,"Gonzalez,Jason",42,AS,V,LS7ND,,UG,M,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,jasong@middlebury.edu
+202360,00814662,"Gray,India",40,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,igray@middlebury.edu
+202360,00814662,"Gray,India",40,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,igray@middlebury.edu
+202360,00814662,"Gray,India",40,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,igray@middlebury.edu
+202360,00815404,"Greenwald,Morgan",25,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,greenwald@middlebury.edu
+202360,00815404,"Greenwald,Morgan",25,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,greenwald@middlebury.edu
+202360,00815404,"Greenwald,Morgan",25,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,greenwald@middlebury.edu
+202360,00759422,"Greenwald,Zoe",24,AS,U,LS7ND,,UG,S2,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,zgreenwald@middlebury.edu
+202360,00759422,"Greenwald,Zoe",24,AS,U,LS7ND,,UG,S2,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,zgreenwald@middlebury.edu
+202360,00759422,"Greenwald,Zoe",24,AS,U,LS7ND,,UG,S2,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,zgreenwald@middlebury.edu
+202360,00802846,"Grupe,Emma",42,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,egrupe@middlebury.edu
+202360,00802846,"Grupe,Emma",42,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,egrupe@middlebury.edu
+202360,00802846,"Grupe,Emma",42,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,egrupe@middlebury.edu
+202360,00816473,"Hakimeh,Samer",-,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,shakimeh@middlebury.edu
+202360,00816473,"Hakimeh,Samer",-,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,shakimeh@middlebury.edu
+202360,00816473,"Hakimeh,Samer",-,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,shakimeh@middlebury.edu
+202360,00802702,"Hannah-Drullard,Teddy",34,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,thannahdrullard@middlebury.edu
+202360,00802702,"Hannah-Drullard,Teddy",34,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,thannahdrullard@middlebury.edu
+202360,00802702,"Hannah-Drullard,Teddy",34,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,thannahdrullard@middlebury.edu
+202360,00815539,"Harris,Nicole",-,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,nicoleh@middlebury.edu
+202360,00815539,"Harris,Nicole",-,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,nicoleh@middlebury.edu
+202360,00815539,"Harris,Nicole",-,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,nicoleh@middlebury.edu
+202360,00804645,"Haynes,Jaz",22,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,jhaynes@middlebury.edu
+202360,00804645,"Haynes,Jaz",22,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,jhaynes@middlebury.edu
+202360,00804645,"Haynes,Jaz",22,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,jhaynes@middlebury.edu
+202360,00787806,"Haynes,Keliy",25,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,khaynes@middlebury.edu
+202360,00787806,"Haynes,Keliy",25,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,khaynes@middlebury.edu
+202360,00787806,"Haynes,Keliy",25,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,khaynes@middlebury.edu
+202360,00741411,"Heffelfinger,Linden",37,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,lheffelfinger@middlebury.edu
+202360,00741411,"Heffelfinger,Linden",37,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,lheffelfinger@middlebury.edu
+202360,00741411,"Heffelfinger,Linden",37,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,lheffelfinger@middlebury.edu
+202360,00132706,"Heinz,Samantha",26,AS,V,LS7ND,,UG,ROS,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,sheinz@middlebury.edu
+202360,00132706,"Heinz,Samantha",26,AS,V,LS7ND,,UG,ROS,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,sheinz@middlebury.edu
+202360,00132706,"Heinz,Samantha",26,AS,V,LS7ND,,UG,ROS,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,sheinz@middlebury.edu
+202360,00814530,"Hill,Phoebe",38,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,phill@middlebury.edu
+202360,00814530,"Hill,Phoebe",38,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,phill@middlebury.edu
+202360,00814530,"Hill,Phoebe",38,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,phill@middlebury.edu
+202360,00816170,"Hong,Zhenyang",22,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,zhenyh@middlebury.edu
+202360,00816170,"Hong,Zhenyang",22,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,zhenyh@middlebury.edu
+202360,00816170,"Hong,Zhenyang",22,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,zhenyh@middlebury.edu
+202360,00803453,"Hoppe,Bryce",39,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,bhoppe@middlebury.edu
+202360,00803453,"Hoppe,Bryce",39,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,bhoppe@middlebury.edu
+202360,00803453,"Hoppe,Bryce",39,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,bhoppe@middlebury.edu
+202360,00802588,"Houck,Reilly",-,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,houck@middlebury.edu
+202360,00802588,"Houck,Reilly",-,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,houck@middlebury.edu
+202360,00802588,"Houck,Reilly",-,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,houck@middlebury.edu
+202360,00803967,"Hubbard,Jordan",25,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,jordanh@middlebury.edu
+202360,00803967,"Hubbard,Jordan",25,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,jordanh@middlebury.edu
+202360,00803967,"Hubbard,Jordan",25,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,jordanh@middlebury.edu
+202360,00657341,"Hufford,Alec",44,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,ahufford@middlebury.edu
+202360,00657341,"Hufford,Alec",44,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,ahufford@middlebury.edu
+202360,00657341,"Hufford,Alec",44,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,ahufford@middlebury.edu
+202360,00804777,"Johnson,Kes",44,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,kesj@middlebury.edu
+202360,00804777,"Johnson,Kes",44,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,kesj@middlebury.edu
+202360,00804777,"Johnson,Kes",44,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,kesj@middlebury.edu
+202360,00814583,"Johnson,William",39,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,wj@middlebury.edu
+202360,00814583,"Johnson,William",39,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,wj@middlebury.edu
+202360,00814583,"Johnson,William",39,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,wj@middlebury.edu
+202360,00802251,"Jonas,Jackie",17,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,jjonas@middlebury.edu
+202360,00802251,"Jonas,Jackie",17,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,jjonas@middlebury.edu
+202360,00802251,"Jonas,Jackie",17,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,jjonas@middlebury.edu
+202360,00802767,"Jones,Ronrico",19,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,ronricoj@middlebury.edu
+202360,00802767,"Jones,Ronrico",19,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,ronricoj@middlebury.edu
+202360,00802767,"Jones,Ronrico",19,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,ronricoj@middlebury.edu
+202360,00816302,"Kania,Tyler",-,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,tkania@middlebury.edu
+202360,00816302,"Kania,Tyler",-,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,tkania@middlebury.edu
+202360,00816302,"Kania,Tyler",-,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,tkania@middlebury.edu
+202360,00815631,"Kaplan,Sophie",-,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,kaplan@middlebury.edu
+202360,00815631,"Kaplan,Sophie",-,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,kaplan@middlebury.edu
+202360,00815631,"Kaplan,Sophie",-,AS,V,LS7ND,,UG,M,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,kaplan@middlebury.edu
+202360,00814748,"Kennedy,Kate",30,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,katek@middlebury.edu
+202360,00814748,"Kennedy,Kate",30,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,katek@middlebury.edu
+202360,00814748,"Kennedy,Kate",30,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,katek@middlebury.edu
+202360,00815795,"Kinsley,Aidan",27,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,akinsley@middlebury.edu
+202360,00815795,"Kinsley,Aidan",27,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,akinsley@middlebury.edu
+202360,00815795,"Kinsley,Aidan",27,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,akinsley@middlebury.edu
+202360,00802708,"Kobriger,Kate",38,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,kkobriger@middlebury.edu
+202360,00802708,"Kobriger,Kate",38,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,kkobriger@middlebury.edu
+202360,00802708,"Kobriger,Kate",38,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,kkobriger@middlebury.edu
+202360,00741039,"Kontor,Glenn",-,AS,U,LS7ND,,UG,DJS,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,gkontor@middlebury.edu
+202360,00741039,"Kontor,Glenn",-,AS,U,LS7ND,,UG,DJS,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,gkontor@middlebury.edu
+202360,00741039,"Kontor,Glenn",-,AS,U,LS7ND,,UG,DJS,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,gkontor@middlebury.edu
+202360,00786144,"Koskoff,August",40,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,akoskoff@middlebury.edu
+202360,00786144,"Koskoff,August",40,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,akoskoff@middlebury.edu
+202360,00786144,"Koskoff,August",40,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,akoskoff@middlebury.edu
+202360,00755973,"Kraegel,Laura",27,AS,V,LS7ND,,UG,M,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,lkraegel@middlebury.edu
+202360,00755973,"Kraegel,Laura",27,AS,V,LS7ND,,UG,M,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,lkraegel@middlebury.edu
+202360,00755973,"Kraegel,Laura",27,AS,V,LS7ND,,UG,M,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,lkraegel@middlebury.edu
+202360,00798251,"Kramer,Anya",26,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,akramer@middlebury.edu
+202360,00798251,"Kramer,Anya",26,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,akramer@middlebury.edu
+202360,00798251,"Kramer,Anya",26,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,akramer@middlebury.edu
+202360,00661214,"Kramer,Landon",38,AS,V,LS7ND,,UG,M,60273,SPAN 3301 C,Adv Intermed SP:Comm in Contxt,,1,7,lhkramer@middlebury.edu
+202360,00661214,"Kramer,Landon",38,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,lhkramer@middlebury.edu
+202360,00661214,"Kramer,Landon",38,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,lhkramer@middlebury.edu
+202360,00788652,"Laden,Wylde",34,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,wladen@middlebury.edu
+202360,00788652,"Laden,Wylde",34,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,wladen@middlebury.edu
+202360,00788652,"Laden,Wylde",34,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,wladen@middlebury.edu
+202360,00815542,"Lai,Allison",22,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,allisonl@middlebury.edu
+202360,00815542,"Lai,Allison",22,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,allisonl@middlebury.edu
+202360,00815542,"Lai,Allison",22,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,allisonl@middlebury.edu
+202360,00804075,"Laraby,Patrick",17,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,plaraby@middlebury.edu
+202360,00804075,"Laraby,Patrick",17,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,plaraby@middlebury.edu
+202360,00804075,"Laraby,Patrick",17,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,plaraby@middlebury.edu
+202360,00802711,"Lembo-Ehms,Ryan",42,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,rlemboehms@middlebury.edu
+202360,00802711,"Lembo-Ehms,Ryan",42,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,rlemboehms@middlebury.edu
+202360,00802711,"Lembo-Ehms,Ryan",42,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,rlemboehms@middlebury.edu
+202360,00802849,"Lenentine,Gregg",26,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,glenentine@middlebury.edu
+202360,00802849,"Lenentine,Gregg",26,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,glenentine@middlebury.edu
+202360,00802849,"Lenentine,Gregg",26,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,glenentine@middlebury.edu
+202360,00815725,"Levy,Eve",32,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,evel@middlebury.edu
+202360,00815725,"Levy,Eve",32,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,evel@middlebury.edu
+202360,00815725,"Levy,Eve",32,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,evel@middlebury.edu
+202360,00815752,"Lin,Jianing",-,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,jianingl@middlebury.edu
+202360,00815752,"Lin,Jianing",-,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,jianingl@middlebury.edu
+202360,00815752,"Lin,Jianing",-,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,jianingl@middlebury.edu
+202360,00802456,"Lucht,William",12,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,wlucht@middlebury.edu
+202360,00802456,"Lucht,William",12,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,wlucht@middlebury.edu
+202360,00802456,"Lucht,William",12,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,wlucht@middlebury.edu
+202360,00815034,"Ludington,Jasper",33,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,jludington@middlebury.edu
+202360,00815034,"Ludington,Jasper",33,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,jludington@middlebury.edu
+202360,00815034,"Ludington,Jasper",33,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,jludington@middlebury.edu
+202360,00816392,"Ly,Justin",28,AS,V,LS7ND,,UG,M,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,jly@middlebury.edu
+202360,00816392,"Ly,Justin",28,AS,V,LS7ND,,UG,M,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,jly@middlebury.edu
+202360,00816392,"Ly,Justin",28,AS,V,LS7ND,,UG,M,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,jly@middlebury.edu
+202360,00802261,"Lynch,Paddy",14,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,paddyl@middlebury.edu
+202360,00802261,"Lynch,Paddy",14,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,paddyl@middlebury.edu
+202360,00802261,"Lynch,Paddy",14,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,paddyl@middlebury.edu
+202360,00815078,"Marshall,Caleb",21,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,calebm@middlebury.edu
+202360,00815078,"Marshall,Caleb",21,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,calebm@middlebury.edu
+202360,00815078,"Marshall,Caleb",21,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,calebm@middlebury.edu
+202360,00815721,"Martinez,Caroline",13,AS,V,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,cm4@middlebury.edu
+202360,00815721,"Martinez,Caroline",13,AS,V,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,cm4@middlebury.edu
+202360,00815721,"Martinez,Caroline",13,AS,V,LS7ND,,UG,M,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,cm4@middlebury.edu
+202360,00798449,"McFarlane,Thomas",18,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,tmcfarlane@middlebury.edu
+202360,00798449,"McFarlane,Thomas",18,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,tmcfarlane@middlebury.edu
+202360,00798449,"McFarlane,Thomas",18,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,tmcfarlane@middlebury.edu
+202360,00805262,"McKinney,Kyra",24,AS,V,LS7ND,,UG,M,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,kyram@middlebury.edu
+202360,00805262,"McKinney,Kyra",24,AS,V,LS7ND,,UG,M,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,kyram@middlebury.edu
+202360,00805262,"McKinney,Kyra",24,AS,V,LS7ND,,UG,M,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,kyram@middlebury.edu
+202360,00802458,"McNair,Greg",37,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,gmcnair@middlebury.edu
+202360,00802458,"McNair,Greg",37,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,gmcnair@middlebury.edu
+202360,00802458,"McNair,Greg",37,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,gmcnair@middlebury.edu
+202360,00815670,"Mestre,Maria",38,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,mmestre@middlebury.edu
+202360,00815670,"Mestre,Maria",38,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,mmestre@middlebury.edu
+202360,00815670,"Mestre,Maria",38,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,mmestre@middlebury.edu
+202360,00803165,"Meuser,Aaron",30,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,ameuser@middlebury.edu
+202360,00803165,"Meuser,Aaron",30,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,ameuser@middlebury.edu
+202360,00803165,"Meuser,Aaron",30,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,ameuser@middlebury.edu
+202360,00743498,"Millar,Rory",17,AS,V,LS7ND,,UG,M,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,rmillar@middlebury.edu
+202360,00743498,"Millar,Rory",17,AS,V,LS7ND,,UG,M,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,rmillar@middlebury.edu
+202360,00743498,"Millar,Rory",17,AS,V,LS7ND,,UG,M,60097,SPAN 3154 A,High Begin SP:Hisp Soc/Culture,,1,7,rmillar@middlebury.edu
+202360,00805107,"Mone,John",30,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,jmone@middlebury.edu
+202360,00805107,"Mone,John",30,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,jmone@middlebury.edu
+202360,00805107,"Mone,John",30,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,jmone@middlebury.edu
+202360,00797185,"Morrison,Seamus",-,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,seamusm@middlebury.edu
+202360,00797185,"Morrison,Seamus",-,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,seamusm@middlebury.edu
+202360,00797185,"Morrison,Seamus",-,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,seamusm@middlebury.edu
+202360,00773851,"Moseley,Ava",32,AS,U,LS7ND,,UG,DJS,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,mmoseley@middlebury.edu
+202360,00773851,"Moseley,Ava",32,AS,U,LS7ND,,UG,DJS,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,mmoseley@middlebury.edu
+202360,00773851,"Moseley,Ava",32,AS,U,LS7ND,,UG,DJS,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,mmoseley@middlebury.edu
+202360,00815545,"Mulder,Brandon",-,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,mulder@middlebury.edu
+202360,00815545,"Mulder,Brandon",-,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,mulder@middlebury.edu
+202360,00815545,"Mulder,Brandon",-,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,mulder@middlebury.edu
+202360,00805263,"Munn,Chuck",36,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,cmunn@middlebury.edu
+202360,00805263,"Munn,Chuck",36,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,cmunn@middlebury.edu
+202360,00805263,"Munn,Chuck",36,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,cmunn@middlebury.edu
+202360,00814729,"Munn,Jackie",25,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,jmunn@middlebury.edu
+202360,00814729,"Munn,Jackie",25,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,jmunn@middlebury.edu
+202360,00814729,"Munn,Jackie",25,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,jmunn@middlebury.edu
+202360,00815096,"Murray,Ashlyn",30,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,am5@middlebury.edu
+202360,00815096,"Murray,Ashlyn",30,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,am5@middlebury.edu
+202360,00815096,"Murray,Ashlyn",30,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,am5@middlebury.edu
+202360,00802272,"Nicholls,Chuck",28,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,cnicholls@middlebury.edu
+202360,00802272,"Nicholls,Chuck",28,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,cnicholls@middlebury.edu
+202360,00802272,"Nicholls,Chuck",28,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,cnicholls@middlebury.edu
+202360,00802273,"Nicholls,Vanessa",23,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,vnicholls@middlebury.edu
+202360,00802273,"Nicholls,Vanessa",23,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,vnicholls@middlebury.edu
+202360,00802273,"Nicholls,Vanessa",23,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,vnicholls@middlebury.edu
+202360,00730792,"Nickerson,Becca",-,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,bnickerson@middlebury.edu
+202360,00730792,"Nickerson,Becca",-,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,bnickerson@middlebury.edu
+202360,00730792,"Nickerson,Becca",-,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,bnickerson@middlebury.edu
+202360,00802274,"Norton-scherer,Jakob",15,AS,V,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,jnortonscherer@middlebury.edu
+202360,00802274,"Norton-scherer,Jakob",15,AS,V,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,jnortonscherer@middlebury.edu
+202360,00802274,"Norton-scherer,Jakob",15,AS,V,LS7ND,,UG,M,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,jnortonscherer@middlebury.edu
+202360,00699056,"Norton,Alzora",22,AS,V,LS7ND,,UG,M,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,ashleyn@middlebury.edu
+202360,00699056,"Norton,Alzora",22,AS,V,LS7ND,,UG,M,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,ashleyn@middlebury.edu
+202360,00699056,"Norton,Alzora",22,AS,V,LS7ND,,UG,M,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,ashleyn@middlebury.edu
+202360,00784732,"Orozco,Maritza",-,AS,U,LS7ND,,UG,DSO,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,morozco@middlebury.edu
+202360,00784732,"Orozco,Maritza",-,AS,U,LS7ND,,UG,DSO,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,morozco@middlebury.edu
+202360,00784732,"Orozco,Maritza",-,AS,U,LS7ND,,UG,DSO,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,morozco@middlebury.edu
+202360,00801971,"Palmer,Nathan",23,AS,U,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,npalmer@middlebury.edu
+202360,00801971,"Palmer,Nathan",23,AS,U,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,npalmer@middlebury.edu
+202360,00801971,"Palmer,Nathan",23,AS,U,LS7ND,,UG,M,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,npalmer@middlebury.edu
+202360,00797580,"Perier,Bridget",21,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,bperier@middlebury.edu
+202360,00797580,"Perier,Bridget",21,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,bperier@middlebury.edu
+202360,00797580,"Perier,Bridget",21,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,bperier@middlebury.edu
+202360,00802277,"Perkinson,Don",15,AS,V,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,dperkinson@middlebury.edu
+202360,00802277,"Perkinson,Don",15,AS,V,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,dperkinson@middlebury.edu
+202360,00802277,"Perkinson,Don",15,AS,V,LS7ND,,UG,M,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,dperkinson@middlebury.edu
+202360,00815547,"Peterson,Nickolas",24,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,nickolasp@middlebury.edu
+202360,00815547,"Peterson,Nickolas",24,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,nickolasp@middlebury.edu
+202360,00815547,"Peterson,Nickolas",24,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,nickolasp@middlebury.edu
+202360,00803399,"Peterson,Tim",15,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,tpeterson@middlebury.edu
+202360,00803399,"Peterson,Tim",15,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,tpeterson@middlebury.edu
+202360,00803399,"Peterson,Tim",15,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,tpeterson@middlebury.edu
+202360,00814708,"Puente,Stefan",18,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,spuente@middlebury.edu
+202360,00814708,"Puente,Stefan",18,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,spuente@middlebury.edu
+202360,00814708,"Puente,Stefan",18,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,spuente@middlebury.edu
+202360,00105168,"Rahbar,Minoo",43,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,mrahbar@middlebury.edu
+202360,00105168,"Rahbar,Minoo",43,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,mrahbar@middlebury.edu
+202360,00105168,"Rahbar,Minoo",43,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,mrahbar@middlebury.edu
+202360,00815182,"Reeves,Lana",34,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,lreeves@middlebury.edu
+202360,00815182,"Reeves,Lana",34,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,lreeves@middlebury.edu
+202360,00815182,"Reeves,Lana",34,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,lreeves@middlebury.edu
+202360,00769261,"Reyes,Jessica",43,AS,U,LS7ND,,UG,DJS,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,reyes@middlebury.edu
+202360,00769261,"Reyes,Jessica",43,AS,U,LS7ND,,UG,DJS,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,reyes@middlebury.edu
+202360,00769261,"Reyes,Jessica",43,AS,U,LS7ND,,UG,DJS,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,reyes@middlebury.edu
+202360,00814537,"Riddles,Ronnie",-,AS,V,LS7ND,,UG,M,60187,SPAN 3151 C,High Begin SP: Comm in Context,,1,7,rriddles@middlebury.edu
+202360,00814537,"Riddles,Ronnie",-,AS,V,LS7ND,,UG,M,60188,SPAN 3153 C,High Begin SP: Oral & Written,,1,7,rriddles@middlebury.edu
+202360,00814537,"Riddles,Ronnie",-,AS,V,LS7ND,,UG,M,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,rriddles@middlebury.edu
+202360,00815553,"Rivera,Jessica",31,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,rivera@middlebury.edu
+202360,00815553,"Rivera,Jessica",31,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,rivera@middlebury.edu
+202360,00815553,"Rivera,Jessica",31,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,rivera@middlebury.edu
+202360,00801957,"Saenz,B.",-,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,bsaenz@middlebury.edu
+202360,00801957,"Saenz,B.",-,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,bsaenz@middlebury.edu
+202360,00801957,"Saenz,B.",-,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,bsaenz@middlebury.edu
+202360,00775446,"Sandbach,Grace",-,AS,U,LS7ND,,UG,DJS,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,asandbach@middlebury.edu
+202360,00775446,"Sandbach,Grace",-,AS,U,LS7ND,,UG,DJS,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,asandbach@middlebury.edu
+202360,00775446,"Sandbach,Grace",-,AS,U,LS7ND,,UG,DJS,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,asandbach@middlebury.edu
+202360,00768671,"Sarrosa,Maxine",29,AS,U,LS7ND,,UG,DJS,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,msarrosa@middlebury.edu
+202360,00768671,"Sarrosa,Maxine",29,AS,U,LS7ND,,UG,DJS,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,msarrosa@middlebury.edu
+202360,00768671,"Sarrosa,Maxine",29,AS,U,LS7ND,,UG,DJS,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,msarrosa@middlebury.edu
+202360,00802286,"Schaffer,Julia",21,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,schaffer@middlebury.edu
+202360,00802286,"Schaffer,Julia",21,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,schaffer@middlebury.edu
+202360,00802286,"Schaffer,Julia",21,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,schaffer@middlebury.edu
+202360,00816260,"Schlosser,Teresa",20,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,tschlosser@middlebury.edu
+202360,00816260,"Schlosser,Teresa",20,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,tschlosser@middlebury.edu
+202360,00816260,"Schlosser,Teresa",20,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,tschlosser@middlebury.edu
+202360,00802602,"Schneider,Marina",24,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,marinas@middlebury.edu
+202360,00802602,"Schneider,Marina",24,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,marinas@middlebury.edu
+202360,00802602,"Schneider,Marina",24,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,marinas@middlebury.edu
+202360,00815759,"Schwing,Kyle",42,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,kschwing@middlebury.edu
+202360,00815759,"Schwing,Kyle",42,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,kschwing@middlebury.edu
+202360,00815759,"Schwing,Kyle",42,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,kschwing@middlebury.edu
+202360,00815604,"Sellers,Mason",11,AS,V,LS7ND,,UG,M,60184,SPAN 3101 B,Beginning SP: Comm in Context,,1,7,msellers@middlebury.edu
+202360,00815604,"Sellers,Mason",11,AS,V,LS7ND,,UG,M,60185,SPAN 3103 B,Beginning SP: Oral & Written,,1,7,msellers@middlebury.edu
+202360,00815604,"Sellers,Mason",11,AS,V,LS7ND,,UG,M,60186,SPAN 3104 B,Beginning SP:Hisp Soc/Cultures,,1,7,msellers@middlebury.edu
+202360,00816204,"Shah,Stella",24,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,stellas@middlebury.edu
+202360,00816204,"Shah,Stella",24,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,stellas@middlebury.edu
+202360,00816204,"Shah,Stella",24,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,stellas@middlebury.edu
+202360,00802917,"Shang,Sally",22,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,sshang@middlebury.edu
+202360,00802917,"Shang,Sally",22,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,sshang@middlebury.edu
+202360,00802917,"Shang,Sally",22,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,sshang@middlebury.edu
+202360,00815083,"Sherman,Talia",24,AS,V,LS7ND,,UG,M,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,talias@middlebury.edu
+202360,00815083,"Sherman,Talia",24,AS,V,LS7ND,,UG,M,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,talias@middlebury.edu
+202360,00815083,"Sherman,Talia",24,AS,V,LS7ND,,UG,M,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,talias@middlebury.edu
+202360,00811594,"Siegel-Bernstein,Sophie",25,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,ssiegelbernstein@middlebury.edu
+202360,00811594,"Siegel-Bernstein,Sophie",25,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,ssiegelbernstein@middlebury.edu
+202360,00811594,"Siegel-Bernstein,Sophie",25,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,ssiegelbernstein@middlebury.edu
+202360,00802289,"Sipes,Carly",17,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,csipes@middlebury.edu
+202360,00802289,"Sipes,Carly",17,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,csipes@middlebury.edu
+202360,00802289,"Sipes,Carly",17,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,csipes@middlebury.edu
+202360,00801959,"Slusser,Bailey",-,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,bslusser@middlebury.edu
+202360,00801959,"Slusser,Bailey",-,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,bslusser@middlebury.edu
+202360,00801959,"Slusser,Bailey",-,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,bslusser@middlebury.edu
+202360,00800025,"Smith,AL",-,AS,V,LS7ND,,UG,CM,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,as4@middlebury.edu
+202360,00800025,"Smith,AL",-,AS,V,LS7ND,,UG,CM,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,as4@middlebury.edu
+202360,00800025,"Smith,AL",-,AS,V,LS7ND,,UG,CM,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,as4@middlebury.edu
+202360,00815878,"Smith,Marco",41,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,marcos@middlebury.edu
+202360,00815878,"Smith,Marco",41,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,marcos@middlebury.edu
+202360,00815878,"Smith,Marco",41,AS,V,LS7ND,,UG,M,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,marcos@middlebury.edu
+202360,00802777,"Stern,Sadie",14,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,sstern@middlebury.edu
+202360,00802777,"Stern,Sadie",14,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,sstern@middlebury.edu
+202360,00802777,"Stern,Sadie",14,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,sstern@middlebury.edu
+202360,00816356,"Stokes,Chris",15,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,cstokes@middlebury.edu
+202360,00816356,"Stokes,Chris",15,AS,V,LS7ND,,UG,M,60537,SPAN 3153 D,High Begin SP: Oral & Written,,1,7,cstokes@middlebury.edu
+202360,00816356,"Stokes,Chris",15,AS,V,LS7ND,,UG,M,60538,SPAN 3154 D,High Begin SP:Hisp Soc/Culture,,1,7,cstokes@middlebury.edu
+202360,00769598,"Straker,B Striker",-,AS,U,LS7ND,,UG,DJS,60095,SPAN 3151 A,High Begin SP: Comm in Context,,1,7,bstraker@middlebury.edu
+202360,00769598,"Straker,B Striker",-,AS,U,LS7ND,,UG,DJS,60096,SPAN 3153 A,High Begin SP: Oral & Written,,1,7,bstraker@middlebury.edu
+202360,00769598,"Straker,B Striker",-,AS,U,LS7ND,,UG,DJS,60189,SPAN 3154 C,High Begin SP:Hisp Soc/Culture,,1,7,bstraker@middlebury.edu
+202360,00815014,"Taylor,Sunny",36,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,sunnyt@middlebury.edu
+202360,00815014,"Taylor,Sunny",36,AS,V,LS7ND,,UG,M,60191,SPAN 3405 A,Creative Writing,,1,7,sunnyt@middlebury.edu
+202360,00815014,"Taylor,Sunny",36,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,sunnyt@middlebury.edu
+202360,00815548,"Tenney,Shannon",30,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,stenney@middlebury.edu
+202360,00815548,"Tenney,Shannon",30,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,stenney@middlebury.edu
+202360,00815548,"Tenney,Shannon",30,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,stenney@middlebury.edu
+202360,00767725,"Thakore,Prannoy",36,AS,U,LS7ND,,UG,DJS,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,pthakore@middlebury.edu
+202360,00767725,"Thakore,Prannoy",36,AS,U,LS7ND,,UG,DJS,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,pthakore@middlebury.edu
+202360,00767725,"Thakore,Prannoy",36,AS,U,LS7ND,,UG,DJS,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,pthakore@middlebury.edu
+202360,00814709,"Thekkinieth,Sr Sini",32,AS,V,LS7ND,,UG,M,60080,SPAN 3201 A,Intermed SP: Comm in Context,,1,7,sthekkinieth@middlebury.edu
+202360,00814709,"Thekkinieth,Sr Sini",32,AS,V,LS7ND,,UG,M,60082,SPAN 3203 A,Intermed SP: Oral & Written,,1,7,sthekkinieth@middlebury.edu
+202360,00814709,"Thekkinieth,Sr Sini",32,AS,V,LS7ND,,UG,M,60085,SPAN 3204 A,Intermed SP: Hisp Soc/Cultures,,1,7,sthekkinieth@middlebury.edu
+202360,00815549,"Thorpe,David",40,AS,V,LS7ND,,UG,M,60173,SPAN 3401 B,Advanced SP: Comm in Context,,1,7,dthorpe@middlebury.edu
+202360,00815549,"Thorpe,David",40,AS,V,LS7ND,,UG,M,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,dthorpe@middlebury.edu
+202360,00815549,"Thorpe,David",40,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,dthorpe@middlebury.edu
+202360,00802778,"Thurston,Morganna",13,AS,V,LS7ND,,UG,M,60536,SPAN 3151 D,High Begin SP: Comm in Context,,1,7,mthurston@middlebury.edu
+202360,00802778,"Thurston,Morganna",13,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,mthurston@middlebury.edu
+202360,00802778,"Thurston,Morganna",13,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,mthurston@middlebury.edu
+202360,00801960,"Trotter,Shanisha Trotter",30,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,strotter@middlebury.edu
+202360,00801960,"Trotter,Shanisha Trotter",30,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,strotter@middlebury.edu
+202360,00801960,"Trotter,Shanisha Trotter",30,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,strotter@middlebury.edu
+202360,00815555,"Underwood,James",36,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,jamesu@middlebury.edu
+202360,00815555,"Underwood,James",36,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,jamesu@middlebury.edu
+202360,00815555,"Underwood,James",36,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,jamesu@middlebury.edu
+202360,00563737,"Underwood,Nicholas",38,AS,V,LS7ND,,UG,DJS,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,nunderwood@middlebury.edu
+202360,00563737,"Underwood,Nicholas",38,AS,V,LS7ND,,UG,DJS,60282,SPAN 3409 A,Academic & Formal Writing,,1,7,nunderwood@middlebury.edu
+202360,00563737,"Underwood,Nicholas",38,AS,V,LS7ND,,UG,DJS,60526,SPAN 3439 A,Visual Cultures Hispanic World,,1,7,nunderwood@middlebury.edu
+202360,00802923,"Walker,Elijah",36,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,ew3@middlebury.edu
+202360,00802923,"Walker,Elijah",36,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,ew3@middlebury.edu
+202360,00802923,"Walker,Elijah",36,AS,V,LS7ND,,UG,M,60424,SPAN 3448 A,"Caribbean, Cuba & Music in USA",,1,7,ew3@middlebury.edu
+202360,00816261,"Walton,Gabby",38,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,gwalton@middlebury.edu
+202360,00816261,"Walton,Gabby",38,AS,V,LS7ND,,UG,M,60225,SPAN 3431 A,Communication Through Theater,,1,7,gwalton@middlebury.edu
+202360,00816261,"Walton,Gabby",38,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,gwalton@middlebury.edu
+202360,00814774,"Weiskittel,Sarah",34,AS,V,LS7ND,,UG,M,60129,SPAN 3201 C,Intermed SP: Comm in Context,,1,7,sweiskittel@middlebury.edu
+202360,00814774,"Weiskittel,Sarah",34,AS,V,LS7ND,,UG,M,60130,SPAN 3203 C,Intermed SP: Oral & Written,,1,7,sweiskittel@middlebury.edu
+202360,00814774,"Weiskittel,Sarah",34,AS,V,LS7ND,,UG,M,60131,SPAN 3204 C,Intermed SP: Hisp Soc/Cultures,,1,7,sweiskittel@middlebury.edu
+202360,00805000,"White,Bug",22,AS,V,LS7ND,,UG,M,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,bugw@middlebury.edu
+202360,00805000,"White,Bug",22,AS,V,LS7ND,,UG,M,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,bugw@middlebury.edu
+202360,00805000,"White,Bug",22,AS,V,LS7ND,,UG,M,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,bugw@middlebury.edu
+202360,00802298,"White,Charlie",8,AS,V,LS7ND,,UG,M,60122,SPAN 3151 B,High Begin SP: Comm in Context,,1,7,charliew@middlebury.edu
+202360,00802298,"White,Charlie",8,AS,V,LS7ND,,UG,M,60123,SPAN 3153 B,High Begin SP: Oral & Written,,1,7,charliew@middlebury.edu
+202360,00802298,"White,Charlie",8,AS,V,LS7ND,,UG,M,60124,SPAN 3154 B,High Begin SP:Hisp Soc/Culture,,1,7,charliew@middlebury.edu
+202360,00816175,"Wilkins,John",-,AS,V,LS7ND,,UG,M,60216,SPAN 3201 D,Intermed SP: Comm in Context,,1,7,wilkins@middlebury.edu
+202360,00816175,"Wilkins,John",-,AS,V,LS7ND,,UG,M,60217,SPAN 3203 D,Intermed SP: Oral & Written,,1,7,wilkins@middlebury.edu
+202360,00816175,"Wilkins,John",-,AS,V,LS7ND,,UG,M,60218,SPAN 3204 D,Intermed SP: Hisp Soc/Cultures,,1,7,wilkins@middlebury.edu
+202360,00802299,"Williams Tilden,Beth A",39,AS,V,LS7ND,,UG,M,60089,SPAN 3401 A,Advanced SP: Comm in Context,,1,7,bwilliamstilden@middlebury.edu
+202360,00802299,"Williams Tilden,Beth A",39,AS,V,LS7ND,,UG,M,60159,SPAN 3411 A,Informal Written Spanish,,1,7,bwilliamstilden@middlebury.edu
+202360,00802299,"Williams Tilden,Beth A",39,AS,V,LS7ND,,UG,M,60527,SPAN 3433 A,"Hispanic Musics, a Back &Forth",,1,7,bwilliamstilden@middlebury.edu
+202360,00802611,"Wright,Isaiah",10,AS,V,LS7ND,,UG,M,60076,SPAN 3101 A,Beginning SP: Comm in Context,,1,7,iwright@middlebury.edu
+202360,00802611,"Wright,Isaiah",10,AS,V,LS7ND,,UG,M,60077,SPAN 3103 A,Beginning SP: Oral & Written,,1,7,iwright@middlebury.edu
+202360,00802611,"Wright,Isaiah",10,AS,V,LS7ND,,UG,M,60078,SPAN 3104 A,Beginning SP:Hisp Soc/Cultures,,1,7,iwright@middlebury.edu
+202360,00788510,"Yin,Judy",31,AS,U,LS7ND,,UG,DSO,60103,SPAN 3201 B,Intermed SP: Comm in Context,,1,7,yifany@middlebury.edu
+202360,00788510,"Yin,Judy",31,AS,U,LS7ND,,UG,DSO,60083,SPAN 3203 B,Intermed SP: Oral & Written,,1,7,yifany@middlebury.edu
+202360,00788510,"Yin,Judy",31,AS,U,LS7ND,,UG,DSO,60084,SPAN 3204 B,Intermed SP: Hisp Soc/Cultures,,1,7,yifany@middlebury.edu
+202360,00802302,"Yu,Hsiaochun",39,AS,V,LS7ND,,UG,M,60086,SPAN 3301 A,Adv Intermed SP:Comm in Contxt,,1,7,hsiaochuny@middlebury.edu
+202360,00802302,"Yu,Hsiaochun",39,AS,V,LS7ND,,UG,M,60423,SPAN 3434 A,Lit & Cul Hispanic Texts,,1,7,hsiaochuny@middlebury.edu
+202360,00802302,"Yu,Hsiaochun",39,AS,V,LS7ND,,UG,M,60178,SPAN 3438 A,Sport in the Hispanic World,,1,7,hsiaochuny@middlebury.edu

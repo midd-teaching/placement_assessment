@@ -1,0 +1,70 @@
+---
+title: "Middlebury placement assessment"
+subtitle: "Combine LexTALE and Placement test data"
+author: "Joseph V. Casillas"
+date: today
+execute: 
+  warning: false
+  message: false
+---
+
+Load libraries and helper functions. 
+
+```{r}
+#| label: setup
+source(here::here("scripts", "01_helpers.R"))
+```
+
+Load data. 
+
+```{r}
+#| label: load-data
+# Load lt data
+lt <- read_csv(here("data", "tidy", "lextale_tidy_2024.csv")) |> 
+  select(name, id, section, lextale_avg)
+
+# Load placement data
+placement <- read_csv(here("data", "tidy", "placement_tidy_2024.csv")) 
+```
+
+Tidy up. 
+
+```{r}
+#| label: tidy-data
+
+all_dat <- left_join(placement, lt, by = "name") |> 
+  transmute(
+    name, 
+    id = id.x, 
+    section = section.x, 
+    score_exam = score, 
+    score_lt = lextale_avg
+  )
+```
+
+Save as .csv to `./data/tidy/`. 
+
+```{r}
+#| label: save-data
+write_csv(all_dat, here("data", "tidy", "all_data_tidy_2024.csv"))
+```
+
+
+Combine lextale and placement data from 2023. 
+
+```{r}
+#| label: combine-2023-data
+ids <- read_csv(here("data", "tidy", "lextale_tidy_2023.csv")) |> 
+  pull(id)
+
+left_join(
+  read_csv(here("data", "tidy", "lextale_tidy_2023.csv")), 
+  read_csv(here("data", "tidy", "placement_tidy_2023.csv")) |> 
+    filter(id %in% ids), 
+  by = "id"
+) |> 
+  select(id, year, level, 
+         score_exam = placement_score, score_lt = lextale_avg) |> 
+  write_csv(here("data", "tidy", "all_data_tidy_2023.csv"))
+```
+

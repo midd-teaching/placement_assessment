@@ -1,0 +1,141 @@
+---
+title: "Middlebury placement assessment"
+subtitle: "Fit predictive model"
+author: "Joseph V. Casillas"
+date: today
+execute: 
+  warning: false
+  message: false
+---
+
+Load libraries, helper functions, and data. 
+
+```{r}
+#| label: setup
+source(here::here("scripts", "05_load_data.R"))
+```
+
+```{r}
+#| label: fig-lt-exam
+#| fig-asp: 0.56
+#| fig-dpi: 300
+#| echo: false
+mod_0 <- brm(
+  formula = score_exam_z ~ score_lt_z, 
+  chains = 4, cores = 4, threads = threading(2), 
+  data = dat_2023, 
+  file = here("models", "mod_0")
+)
+
+dat_2023 |> 
+  ggplot() + 
+  aes(x = score_lt_z, y = score_exam_z) + 
+  geom_abline(
+    data = slice_sample(as_tibble(mod_0), n = 200), 
+    aes(intercept = b_Intercept, slope = b_score_lt_z), 
+    alpha = 0.2, color = "grey40"
+  ) + 
+  geom_abline(
+    data = summarize(as_tibble(mod_0), 
+      intercept = mean(b_Intercept), slope = mean(b_score_lt_z)
+    ), 
+    aes(intercept = intercept, slope = slope), 
+    color = "white", linewidth = 3
+  ) + 
+  geom_abline(
+    data = summarize(as_tibble(mod_0), 
+      intercept = mean(b_Intercept), slope = mean(b_score_lt_z)
+    ), 
+    aes(intercept = intercept, slope = slope), 
+    color = "black", linewidth = 1.5
+  ) + 
+  geom_point(
+    aes(fill = level), 
+    pch = 21, color = "white", size = 3, show.legend = F
+  ) + 
+  scale_fill_viridis_d(name = NULL) + 
+  coord_cartesian(xlim = c(-2, 2), ylim = c(-2, 2)) + 
+  ds4ling::ds4ling_bw_theme(base_family = "Palatino")
+```
+
+
+```{r}
+#| label: fit-models
+mod_null <- brm(
+  formula = level_n ~ 1, 
+  family = cumulative("probit"), 
+  data = dat_2023, 
+  chains = 4, cores = 4, threads = threading(2), 
+  file = here("models", "mod_null")
+)
+
+mod_lt <- brm(
+  formula = level_n ~ 1 + score_lt, 
+  family = cumulative("probit"), 
+  data = dat_2023, 
+  chains = 4, cores = 4, threads = threading(2), 
+  file = here("models", "mod_lt")
+)
+
+mod_placement <- brm(
+  formula = level_n ~ 1 + score_exam, 
+  family = cumulative("probit"), 
+  data = dat_2023, 
+  chains = 4, cores = 4, threads = threading(2), 
+  file = here("models", "mod_placement")
+)
+
+mod_lt_placement <- brm(
+  formula = level_n ~ 1 + score_lt + score_exam, 
+  family = cumulative("probit"), 
+  data = dat_2023, 
+  chains = 4, cores = 4, threads = threading(2), 
+  file = here("models", "mod_lt_placement")
+)
+
+```
+
+
+
+
+```{r}
+#| label: fig-model-pred-ex
+#| fig-asp: 0.56
+#| fig-dpi: 300
+#| echo: false
+predictions(
+  model = mod_lt_placement, 
+  newdata = datagrid(
+    score_lt = 85, 
+    score_exam = 44
+  ), 
+  type = "response"
+) |> 
+  posterior_draws() |> 
+  mutate(
+    group = case_when(
+      group == 1 ~ "1", 
+      group == 2 ~ "1.5", 
+      group == 3 ~ "2", 
+      group == 4 ~ "3", 
+      group == 5 ~ "4", 
+      group == 6 ~ "Master"
+    )
+  ) |> 
+  ggplot() + 
+  aes(x = group, y = draw) + 
+  stat_pointinterval(pch = 21, point_fill = "white") + 
+  geom_text(
+    data = tibble(
+      group = "1", 
+      draw = 1, 
+      label = "LT = 85\nPlacement = 44"
+    ), 
+    mapping = aes(label = label), 
+    hjust = 0, vjust = 1, family = "Palatino"
+  ) + 
+  labs(x = NULL, y = "p(level)") + 
+  ds4ling::ds4ling_bw_theme(base_family = "Palatino")
+
+```
+

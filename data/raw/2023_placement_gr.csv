@@ -1,0 +1,177 @@
+Term,ID,Name,Sts,Type,Program 1,Grad Trm,Stu Lev,Camp,CRN,Course,Course Title,Crs Attr,Units Reg,Wks,Email (Stu-MNET)
+202360,00738321,"Baker,Chloe",AS,B,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,cebaker@middlebury.edu
+202360,00798417,"Blessing,Rebecca",AS,V,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,rblessing@middlebury.edu
+202360,00662496,"Facey,Jesse",AS,V,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,jfacey@middlebury.edu
+202360,00814802,"Magat,Regine",AS,B,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,rmagat@middlebury.edu
+202360,00797769,"Prehn,Mary Katherine",AS,B,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,mprehn@middlebury.edu
+202360,00782931,"Skinner,Carolina",AS,B,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,crskinner@middlebury.edu
+202360,00815678,"White,Sarah",AS,B,LS6MA,,GR,M,60175,SPAN 6501 A,Intro to Advanced SP Grammar,GLNG,1,6,sarahw@middlebury.edu
+202360,00697301,"Adams,Emily",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,esadams@middlebury.edu
+202360,00802219,"Bourque,Natalie",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,nbourque@middlebury.edu
+202360,00721142,"Buitrago Munoz,Karen",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,kbuitragomunoz@middlebury.edu
+202360,00050263,"Causton,Natasha",AS,B,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,ncauston@middlebury.edu
+202360,00788787,"Forgione,Nicole",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,nforgione@middlebury.edu
+202360,00814765,"Gomez-Reyes,Christian",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,cgomezreyes@middlebury.edu
+202360,00815796,"Mamani Pachuri,Elsa",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,emamanipachuri@middlebury.edu
+202360,00802269,"Muro,Megumi",AS,B,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,mmuro@middlebury.edu
+202360,00713679,"Ramos,Gloria",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,gramos@middlebury.edu
+202360,00815239,"Swenson,Elli",AS,B,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,eswenson@middlebury.edu
+202360,00804997,"Torre,Justin",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,jtorre@middlebury.edu
+202360,00815192,"Worthington,Catherine",AS,V,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,cworthington@middlebury.edu
+202360,00742038,"Wurl,Alex",AS,B,LS6MA,,GR,M,60090,SPAN 6502 A,Advanced Spanish Grammar,GLNG,1,6,awurl@middlebury.edu
+202360,00738321,"Baker,Chloe",AS,B,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,cebaker@middlebury.edu
+202360,00737922,"Barriga,Mauricio",AS,V,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,mbarriga@middlebury.edu
+202360,00798417,"Blessing,Rebecca",AS,V,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,rblessing@middlebury.edu
+202360,00662496,"Facey,Jesse",AS,V,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,jfacey@middlebury.edu
+202360,00814802,"Magat,Regine",AS,B,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,rmagat@middlebury.edu
+202360,00802269,"Muro,Megumi",AS,B,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,mmuro@middlebury.edu
+202360,00797769,"Prehn,Mary Katherine",AS,B,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,mprehn@middlebury.edu
+202360,00782931,"Skinner,Carolina",AS,B,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,crskinner@middlebury.edu
+202360,00815678,"White,Sarah",AS,B,LS6MA,,GR,M,60091,SPAN 6505 A,Adv Academic Writing,GLNG,1,6,sarahw@middlebury.edu
+202360,00798417,"Blessing,Rebecca",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,rblessing@middlebury.edu
+202360,00802219,"Bourque,Natalie",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,nbourque@middlebury.edu
+202360,00721142,"Buitrago Munoz,Karen",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,kbuitragomunoz@middlebury.edu
+202360,00050263,"Causton,Natasha",AS,B,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,ncauston@middlebury.edu
+202360,00797658,"Cooper,Clarise",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,clarisec@middlebury.edu
+202360,00768480,"Lopez Rodriguez,Junior",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,jlopezrodriguez@middlebury.edu
+202360,00814802,"Magat,Regine",AS,B,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,rmagat@middlebury.edu
+202360,00786930,"Makepeace,Javi",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,jmakepeace@middlebury.edu
+202360,00815796,"Mamani Pachuri,Elsa",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,emamanipachuri@middlebury.edu
+202360,00713679,"Ramos,Gloria",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,gramos@middlebury.edu
+202360,00782931,"Skinner,Carolina",AS,B,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,crskinner@middlebury.edu
+202360,00804997,"Torre,Justin",AS,V,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,jtorre@middlebury.edu
+202360,00815678,"White,Sarah",AS,B,LS6MA,,GR,M,60196,SPAN 6560 A,Literary & Film Analysis,GLIT,1,6,sarahw@middlebury.edu
+202360,00697301,"Adams,Emily",AS,V,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,esadams@middlebury.edu
+202360,00738321,"Baker,Chloe",AS,B,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,cebaker@middlebury.edu
+202360,00311875,"Caraballo-Medina,Amneris",AS,V,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,acaraballomedina@middlebury.edu
+202360,00802377,"Degner,Isaiah",AS,V,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,idegner@middlebury.edu
+202360,00662496,"Facey,Jesse",AS,V,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,jfacey@middlebury.edu
+202360,00814765,"Gomez-Reyes,Christian",AS,V,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,cgomezreyes@middlebury.edu
+202360,00802269,"Muro,Megumi",AS,B,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,mmuro@middlebury.edu
+202360,00797769,"Prehn,Mary Katherine",AS,B,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,mprehn@middlebury.edu
+202360,00815239,"Swenson,Elli",AS,B,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,eswenson@middlebury.edu
+202360,00805287,"Van Wylen,Margaret",AS,B,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,mvanwylen@middlebury.edu
+202360,00815192,"Worthington,Catherine",AS,V,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,cworthington@middlebury.edu
+202360,00742038,"Wurl,Alex",AS,B,LS6MA,,GR,M,60092,SPAN 6560 B,Literary & Film Analysis,GLIT,1,6,awurl@middlebury.edu
+202360,00509329,"Aquino,Jennifer",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,jaquino@middlebury.edu
+202360,00737922,"Barriga,Mauricio",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,mbarriga@middlebury.edu
+202360,00796832,"Booth,Jarred",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,jarredb@middlebury.edu
+202360,00797768,"Magni,Shannon",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,smagni@middlebury.edu
+202360,00085461,"Pisig,Antonio Pisig",AS,V,LS6AMA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,apisig@middlebury.edu
+202360,00717992,"Shabasson,Dan or Daniel",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,dshabasson@middlebury.edu
+202360,00798254,"Trejo Amezcua,Sayra",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,strejoamezcua@middlebury.edu
+202360,00805287,"Van Wylen,Margaret",AS,B,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,mvanwylen@middlebury.edu
+202360,00815192,"Worthington,Catherine",AS,V,LS6MA,,GR,M,60454,SPAN 6610 A,Intro to Spanish Linguistics,GLGS,1,6,cworthington@middlebury.edu
+202360,00311875,"Caraballo-Medina,Amneris",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,acaraballomedina@middlebury.edu
+202360,00751718,"Conger,Theresa",AS,V,LS6MA,202360,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,tconger@middlebury.edu
+202360,00802377,"Degner,Isaiah",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,idegner@middlebury.edu
+202360,00134570,"Green,Alexandra",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,algreen@middlebury.edu
+202360,00768480,"Lopez Rodriguez,Junior",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,jlopezrodriguez@middlebury.edu
+202360,00768963,"Lopez,Jorge",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,jl11@middlebury.edu
+202360,00786930,"Makepeace,Javi",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,jmakepeace@middlebury.edu
+202360,00797526,"Snuffer,Ben",AS,V,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,bsnuffer@middlebury.edu
+202360,00805287,"Van Wylen,Margaret",AS,B,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,mvanwylen@middlebury.edu
+202360,00742038,"Wurl,Alex",AS,B,LS6MA,,GR,M,60455,SPAN 6621 A,Syntax of the Spanish Language,"GLGS, GLNG",1,6,awurl@middlebury.edu
+202360,00509329,"Aquino,Jennifer",AS,V,LS6MA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,jaquino@middlebury.edu
+202360,00716481,"Castillo,Jose",AS,V,LS6DML,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,jcastillo@middlebury.edu
+202360,00760421,"Lowe,Cole",AS,V,LS6MA,202360,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,colel@middlebury.edu
+202360,00785403,"Martinez,Ana",AS,V,LS6MA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,anam@middlebury.edu
+202360,00784971,"Matus-Cazares,Carmen Delia",AS,V,LS6MA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,cmatuscazares@middlebury.edu
+202360,00085461,"Pisig,Antonio Pisig",AS,V,LS6AMA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,apisig@middlebury.edu
+202360,00573579,"Romeyn,Edward",AS,V,LS6MA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,eromeyn@middlebury.edu
+202360,00781708,"Shippie,Michael",AS,V,LS6MA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,mshippie@middlebury.edu
+202360,00798254,"Trejo Amezcua,Sayra",AS,V,LS6MA,,GR,M,60458,SPAN 6636 A,Understanding National Borders,GCUL,1,6,strejoamezcua@middlebury.edu
+202360,00780801,"DiVito,Jamie",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,jdivito@middlebury.edu
+202360,00542276,"Fiore,Camilo",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,cfiore@middlebury.edu
+202360,00788787,"Forgione,Nicole",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,nforgione@middlebury.edu
+202360,00784907,"Galli,Sara",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,sgalli@middlebury.edu
+202360,00765400,"Lona,Jenny",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,jlona@middlebury.edu
+202360,00798696,"Martinez,Rachel",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,rm4@middlebury.edu
+202360,00756221,"Ruehrdanz,Hannah",AS,V,LS6MA,202360,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,hruehrdanz@middlebury.edu
+202360,00759138,"Williams,Shayla",AS,V,LS6MA,,GR,M,60457,SPAN 6654 A,Graphic Novel & Latin Amer Lit,GLIT,1,6,shaylaw@middlebury.edu
+202360,00721142,"Buitrago Munoz,Karen",AS,V,LS6MA,,GR,M,60105,SPAN 6662 A,Quijote De La Mancha,GLIT,1,6,kbuitragomunoz@middlebury.edu
+202360,00760421,"Lowe,Cole",AS,V,LS6MA,202360,GR,M,60105,SPAN 6662 A,Quijote De La Mancha,GLIT,1,6,colel@middlebury.edu
+202360,00815796,"Mamani Pachuri,Elsa",AS,V,LS6MA,,GR,M,60105,SPAN 6662 A,Quijote De La Mancha,GLIT,1,6,emamanipachuri@middlebury.edu
+202360,00784971,"Matus-Cazares,Carmen Delia",AS,V,LS6MA,,GR,M,60105,SPAN 6662 A,Quijote De La Mancha,GLIT,1,6,cmatuscazares@middlebury.edu
+202360,00756221,"Ruehrdanz,Hannah",AS,V,LS6MA,202360,GR,M,60105,SPAN 6662 A,Quijote De La Mancha,GLIT,1,6,hruehrdanz@middlebury.edu
+202360,00759138,"Williams,Shayla",AS,V,LS6MA,,GR,M,60105,SPAN 6662 A,Quijote De La Mancha,GLIT,1,6,shaylaw@middlebury.edu
+202360,00509329,"Aquino,Jennifer",AS,V,LS6MA,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,jaquino@middlebury.edu
+202360,00796832,"Booth,Jarred",AS,V,LS6MA,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,jarredb@middlebury.edu
+202360,00788787,"Forgione,Nicole",AS,V,LS6MA,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,nforgione@middlebury.edu
+202360,00554200,"Ji,Yuyan",AS,V,LS6DML,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,yuyanj@middlebury.edu
+202360,00756632,"LaFarge,Samuel",AS,V,LS6MA,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,slafarge@middlebury.edu
+202360,00760421,"Lowe,Cole",AS,V,LS6MA,202360,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,colel@middlebury.edu
+202360,00798696,"Martinez,Rachel",AS,V,LS6MA,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,rm4@middlebury.edu
+202360,00784994,"Palomera,Isabel",AS,V,LS6MA,202360,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,ipalomera@middlebury.edu
+202360,00781708,"Shippie,Michael",AS,V,LS6MA,,GR,M,60407,SPAN 6691 A,Second Language Teaching,GPED,1,6,mshippie@middlebury.edu
+202360,00772761,"Casillas,Erika",AS,V,LS6MA,202360,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,ecasillas@middlebury.edu
+202360,00780801,"DiVito,Jamie",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,jdivito@middlebury.edu
+202360,00771712,"Espinoza Ramirez,Jorge",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,jespinozaramirez@middlebury.edu
+202360,00780404,"José Sánchez,Daisy",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,djosesanchez@middlebury.edu
+202360,00694295,"Kushner,Grace",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,gkushner@middlebury.edu
+202360,00756632,"LaFarge,Samuel",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,slafarge@middlebury.edu
+202360,00768480,"Lopez Rodriguez,Junior",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,jlopezrodriguez@middlebury.edu
+202360,00788524,"Ornelas,Jacquelyn",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,jornelas@middlebury.edu
+202360,00784994,"Palomera,Isabel",AS,V,LS6MA,202360,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,ipalomera@middlebury.edu
+202360,00717992,"Shabasson,Dan or Daniel",AS,V,LS6MA,,GR,M,60408,SPAN 6696 A,Culture and L2,GPED,1,6,dshabasson@middlebury.edu
+202360,00697301,"Adams,Emily",AS,V,LS6MA,,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,esadams@middlebury.edu
+202360,00772761,"Casillas,Erika",AS,V,LS6MA,202360,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,ecasillas@middlebury.edu
+202360,00751718,"Conger,Theresa",AS,V,LS6MA,202360,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,tconger@middlebury.edu
+202360,00554200,"Ji,Yuyan",AS,V,LS6DML,,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,yuyanj@middlebury.edu
+202360,00756632,"LaFarge,Samuel",AS,V,LS6MA,,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,slafarge@middlebury.edu
+202360,00768963,"Lopez,Jorge",AS,V,LS6MA,,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,jl11@middlebury.edu
+202360,00785403,"Martinez,Ana",AS,V,LS6MA,,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,anam@middlebury.edu
+202360,00784994,"Palomera,Isabel",AS,V,LS6MA,202360,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,ipalomera@middlebury.edu
+202360,00797526,"Snuffer,Ben",AS,V,LS6MA,,GR,M,60398,SPAN 6703 A,Personal Writing Spanish Clsrm,GPED,1,6,bsnuffer@middlebury.edu
+202360,00784907,"Galli,Sara",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,sgalli@middlebury.edu
+202360,00134570,"Green,Alexandra",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,algreen@middlebury.edu
+202360,00765400,"Lona,Jenny",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,jlona@middlebury.edu
+202360,00797768,"Magni,Shannon",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,smagni@middlebury.edu
+202360,00713679,"Ramos,Gloria",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,gramos@middlebury.edu
+202360,00573579,"Romeyn,Edward",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,eromeyn@middlebury.edu
+202360,00756221,"Ruehrdanz,Hannah",AS,V,LS6MA,202360,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,hruehrdanz@middlebury.edu
+202360,00717992,"Shabasson,Dan or Daniel",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,dshabasson@middlebury.edu
+202360,00781708,"Shippie,Michael",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,mshippie@middlebury.edu
+202360,00759138,"Williams,Shayla",AS,V,LS6MA,,GR,M,60229,SPAN 6704 A,Intro to Sociolinguistics,GLGS,1,6,shaylaw@middlebury.edu
+202360,00772761,"Casillas,Erika",AS,V,LS6MA,202360,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,ecasillas@middlebury.edu
+202360,00716481,"Castillo,Jose",AS,V,LS6DML,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,jcastillo@middlebury.edu
+202360,00050263,"Causton,Natasha",AS,B,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,ncauston@middlebury.edu
+202360,00542276,"Fiore,Camilo",AS,V,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,cfiore@middlebury.edu
+202360,00134570,"Green,Alexandra",AS,V,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,algreen@middlebury.edu
+202360,00765400,"Lona,Jenny",AS,V,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,jlona@middlebury.edu
+202360,00785403,"Martinez,Ana",AS,V,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,anam@middlebury.edu
+202360,00573579,"Romeyn,Edward",AS,V,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,eromeyn@middlebury.edu
+202360,00797526,"Snuffer,Ben",AS,V,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,bsnuffer@middlebury.edu
+202360,00815239,"Swenson,Elli",AS,B,LS6MA,,GR,M,60160,SPAN 6721 A,Women through their Writing,"GCUL, GLIT",1,6,eswenson@middlebury.edu
+202360,00802219,"Bourque,Natalie",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,nbourque@middlebury.edu
+202360,00797658,"Cooper,Clarise",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,clarisec@middlebury.edu
+202360,00771712,"Espinoza Ramirez,Jorge",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,jespinozaramirez@middlebury.edu
+202360,00802586,"Guerrero Andrade,Ana",AS,V,LS6DML,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,aguerreroandrade@middlebury.edu
+202360,00780404,"José Sánchez,Daisy",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,djosesanchez@middlebury.edu
+202360,00694295,"Kushner,Grace",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,gkushner@middlebury.edu
+202360,00798696,"Martinez,Rachel",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,rm4@middlebury.edu
+202360,00788524,"Ornelas,Jacquelyn",AS,V,LS6MA,,GR,M,60402,SPAN 6723 A,Those Are Indeed Cubans,GCUL,1,6,jornelas@middlebury.edu
+202360,00311875,"Caraballo-Medina,Amneris",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,acaraballomedina@middlebury.edu
+202360,00780801,"DiVito,Jamie",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,jdivito@middlebury.edu
+202360,00771712,"Espinoza Ramirez,Jorge",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,jespinozaramirez@middlebury.edu
+202360,00542276,"Fiore,Camilo",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,cfiore@middlebury.edu
+202360,00814765,"Gomez-Reyes,Christian",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,cgomezreyes@middlebury.edu
+202360,00780404,"José Sánchez,Daisy",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,djosesanchez@middlebury.edu
+202360,00788524,"Ornelas,Jacquelyn",AS,V,LS6MA,,GR,M,60400,SPAN 6731 A,Women in Colonial Sp. America,GCUL,1,6,jornelas@middlebury.edu
+202360,00737922,"Barriga,Mauricio",AS,V,LS6MA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,mbarriga@middlebury.edu
+202360,00796832,"Booth,Jarred",AS,V,LS6MA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,jarredb@middlebury.edu
+202360,00716481,"Castillo,Jose",AS,V,LS6DML,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,jcastillo@middlebury.edu
+202360,00797658,"Cooper,Clarise",AS,V,LS6MA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,clarisec@middlebury.edu
+202360,00802586,"Guerrero Andrade,Ana",AS,V,LS6DML,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,aguerreroandrade@middlebury.edu
+202360,00694295,"Kushner,Grace",AS,V,LS6MA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,gkushner@middlebury.edu
+202360,00786930,"Makepeace,Javi",AS,V,LS6MA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,jmakepeace@middlebury.edu
+202360,00085461,"Pisig,Antonio Pisig",AS,V,LS6AMA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,apisig@middlebury.edu
+202360,00804997,"Torre,Justin",AS,V,LS6MA,,GR,M,60456,SPAN 6749 A,Crisis in Contemporary Spain,"GCUL, GLIT",1,6,jtorre@middlebury.edu
+202360,00802377,"Degner,Isaiah",AS,V,LS6MA,,GR,M,60401,SPAN 6761 A,Mestizaje &Inter Ethnic Rel:LA,GCUL,1,6,idegner@middlebury.edu
+202360,00784907,"Galli,Sara",AS,V,LS6MA,,GR,M,60401,SPAN 6761 A,Mestizaje &Inter Ethnic Rel:LA,GCUL,1,6,sgalli@middlebury.edu
+202360,00768963,"Lopez,Jorge",AS,V,LS6MA,,GR,M,60401,SPAN 6761 A,Mestizaje &Inter Ethnic Rel:LA,GCUL,1,6,jl11@middlebury.edu
+202360,00797768,"Magni,Shannon",AS,V,LS6MA,,GR,M,60401,SPAN 6761 A,Mestizaje &Inter Ethnic Rel:LA,GCUL,1,6,smagni@middlebury.edu
+202360,00784971,"Matus-Cazares,Carmen Delia",AS,V,LS6MA,,GR,M,60401,SPAN 6761 A,Mestizaje &Inter Ethnic Rel:LA,GCUL,1,6,cmatuscazares@middlebury.edu
+202360,00798254,"Trejo Amezcua,Sayra",AS,V,LS6MA,,GR,M,60401,SPAN 6761 A,Mestizaje &Inter Ethnic Rel:LA,GCUL,1,6,strejoamezcua@middlebury.edu
+202360,00802586,"Guerrero Andrade,Ana",AS,V,LS6DML,,GR,M,60195,SPAN 6904 A,Research Paper,,1,6,aguerreroandrade@middlebury.edu
+202360,00554200,"Ji,Yuyan",AS,V,LS6DML,,GR,M,60195,SPAN 6904 A,Research Paper,,1,6,yuyanj@middlebury.edu
