@@ -49,6 +49,7 @@ dat_2023 |>
     aes(intercept = intercept, slope = slope), 
     color = "black", linewidth = 1.5
   ) + 
+  geom_abline(intercept = 0, slope = 1, lty = 3) + 
   geom_point(
     aes(fill = level), 
     pch = 21, color = "white", size = 3, show.legend = F
@@ -103,17 +104,20 @@ mod_lt_placement <- brm(
 #| fig-asp: 0.56
 #| fig-dpi: 300
 #| echo: false
-predictions(
+
+pred_dat <- dat_2024 |> 
+  filter(!is.na(score_exam) & !is.na(score_lt)) |> 
+  select(id, score_exam, score_lt)
+
+preds <- predictions(
   model = mod_lt_placement, 
-  newdata = datagrid(
-    score_lt = 85, 
-    score_exam = 44
-  ), 
+  newdata = pred_dat, 
   type = "response"
 ) |> 
   posterior_draws() |> 
   mutate(
-    group = case_when(
+    id = as.factor(id), 
+    group_lab = case_when(
       group == 1 ~ "1", 
       group == 2 ~ "1.5", 
       group == 3 ~ "2", 
@@ -121,19 +125,28 @@ predictions(
       group == 5 ~ "4", 
       group == 6 ~ "Master"
     )
-  ) |> 
+  ) 
+
+medians <- preds |> 
+  filter(id == "44531") |> 
+  group_by(group_lab) |> 
+  mean_qi(draw)
+
+preds |> 
+  filter(id == "44531") |> 
   ggplot() + 
-  aes(x = group, y = draw) + 
-  stat_pointinterval(pch = 21, point_fill = "white") + 
-  geom_text(
-    data = tibble(
-      group = "1", 
-      draw = 1, 
-      label = "LT = 85\nPlacement = 44"
-    ), 
-    mapping = aes(label = label), 
-    hjust = 0, vjust = 1, family = "Palatino"
+  aes(x = group_lab, y = draw) + 
+  geom_segment(
+    data = medians, 
+    aes(x = group_lab, y = .lower, yend = .upper), 
+    linewidth = 3, lineend = "round", color = "grey60"
   ) + 
+  geom_point(
+    data = medians, 
+    aes(x = group_lab, y = draw), 
+    pch = 21, stroke = 2, size = 3
+  ) + 
+  coord_cartesian(ylim = c(0, 1)) + 
   labs(x = NULL, y = "p(level)") + 
   ds4ling::ds4ling_bw_theme(base_family = "Palatino")
 
