@@ -14,6 +14,7 @@ source(here::here("scripts", "01_helpers.R"))
 source(here("scripts", "99_small_data.R"))
 ```
 
+Links to scripts: 
 
 ```{r}
 #| label: toc
@@ -33,11 +34,37 @@ dir_ls(here("scripts"), regexp = ".html") |>
   pull(link)
 ```
 
+
+Current status: 
+
+
 ```{r}
 #| label: tbl-status
 
 n_s |> 
   select(year, everything()) |> 
   knitr::kable()
+```
+
+Current predictions: 
+
+```{r}
+#| label: tbl-preds
+#| results: 'asis'
+library(ztable)
+
+temp <- readRDS(here("data", "tidy", "preds_2024.rds")) |> 
+  select(id, level_1, level_1.5, level_2, level_3, level_4, master) |> 
+  pivot_longer(cols = -id, names_to = "level", values_to = "vals") |> 
+  mutate(
+    level = str_replace(level, "_", " "), 
+    level = str_to_sentence(level)
+    ) |> 
+  pivot_wider(names_from = "level", values_from = "vals") |> 
+  as.data.frame()
+ 
+ztable(temp, size = 5) |> 
+  makeHeatmap(palette = "Blues", margin = 1)
+
 ```
 

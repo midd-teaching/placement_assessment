@@ -16,5 +16,6 @@ library("ggplot2")
 library("brms")
 library("marginaleffects")
 library("ggdist")
+library("tinytable")
 
 # -----------------------------------------------------------------------------
