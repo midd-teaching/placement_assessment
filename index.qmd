@@ -51,7 +51,6 @@ Current predictions:
 ```{r}
 #| label: tbl-preds
 #| results: 'asis'
-library(ztable)
 
 temp <- readRDS(here("data", "tidy", "preds_2024.rds")) |> 
   select(id, level_1, level_1.5, level_2, level_3, level_4, master) |> 

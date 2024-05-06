@@ -17,5 +17,6 @@ library("brms")
 library("marginaleffects")
 library("ggdist")
 library("tinytable")
+library("ztable")
 
 # -----------------------------------------------------------------------------
