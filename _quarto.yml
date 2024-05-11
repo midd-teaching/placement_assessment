@@ -1,5 +1,10 @@
 project:
   title: "placement_assessment"
 
-
+  render:
+    - ./scripts/02_tidy_lextale_data.qmd
+    - ./scripts/03_tidy_placement_data.qmd
+    - ./scripts/04_combine_data.qmd
+    - ./scripts/06_predictive_model.qmd
+    - ./index.qmd
 
