@@ -4,7 +4,6 @@ Harry/Harrison Acrish,43411,Spanish School 7-week Placement Test,23,NA
 Olivia Aitkin,45091,Spanish School 7-week Placement Test,18,NA
 Lisa Apple,44541,Spanish School 7-week Placement Test,39,NA
 Leslie Atkinson,44635,Spanish School 7-week Placement Test,4,NA
-Zeki Avşar,45214,Spanish School 7-week Placement Test,35,NA
 Bruce Baigrie,44655,Spanish School 7-week Placement Test,36,NA
 Lily Bailey,45878,Spanish School 7-week Placement Test,NA,NA
 Samuel Barnard,38548,Spanish School 7-week Placement Test,35,NA
@@ -35,7 +34,7 @@ Josh Dragnett,46143,Spanish School 7-week Placement Test,40,NA
 Abraham Dreher,44736,Spanish School 7-week Placement Test,22,42.5
 Julia Driscoll,36098,Spanish School 7-week Placement Test,12,NA
 Reilly Dwight,44939,Spanish School 7-week Placement Test,34,NA
-JohnPaul Felmlee,44627,Spanish School 7-week Placement Test,26,NA
+JP Felmlee,44627,Spanish School 7-week Placement Test,26,NA
 Daniel Fishkin,45676,Spanish School 7-week Placement Test,16,0
 Margaux Fitoussi,46285,Spanish School 7-week Placement Test,21,NA
 Deena Frankel,34371,Spanish School 7-week Placement Test,33,60.74020319303339
@@ -43,9 +42,10 @@ Alissa Freeman,45817,Spanish School 7-week Placement Test,26,55.37010159651669
 Brooke Friberg,43658,Spanish School 7-week Placement Test,40,60
 Hannah Friedman,46253,Spanish School 7-week Placement Test,33,52.177068214804066
 Victoria Frost,44552,Spanish School 7-week Placement Test,23,NA
+Zeki Funk,45214,Spanish School 7-week Placement Test,35,NA
 Rene Giamanco,44542,Spanish School 7-week Placement Test,18,NA
 David Gordon,44739,Spanish School 7-week Placement Test,29,NA
-Graham Gordon,38628,Spanish School 7-week Placement Test,39,NA
+Graham Gordon,38628,Spanish School 7-week Placement Test,39,46.516690856313495
 Keira Greco,45675,Spanish School 7-week Placement Test,38,NA
 Samer Hakimeh,41858,Spanish School 7-week Placement Test,42,NA
 Ginger Hanlon,38507,Spanish School 7-week Placement Test,36,NA
@@ -55,8 +55,8 @@ Anthony Havlik,45879,Spanish School 7-week Placement Test,32,43.72278664731495
 Talitha Hicks,40668,Spanish School 7-week Placement Test,25,NA
 Jessie Hill,44674,Spanish School 7-week Placement Test,38,NA
 Steve Hinds,45946,Spanish School 7-week Placement Test,41,NA
-Walter Hoffmann,44574,Spanish School 7-week Placement Test,32,NA
-Antoine JACQUIN,44959,Spanish School 7-week Placement Test,38,66.54571843251088
+WalterHoffmann Hoffmann,44574,Spanish School 7-week Placement Test,32,NA
+Antoine Jacquin,44959,Spanish School 7-week Placement Test,38,NA
 Joy Janzen,46060,Spanish School 7-week Placement Test,25,NA
 Brandon Jarrold,45510,Spanish School 7-week Placement Test,28,44.593613933236576
 Makayla Jenkins,44564,Spanish School 7-week Placement Test,25,59.107402031930334
@@ -64,7 +64,7 @@ Diana Jimenez,36800,Spanish School 7-week Placement Test,40,70.53701015965167
 Christopher Johnson,44532,Spanish School 7-week Placement Test,21,42.77939042089986
 Emily Johnson,45100,Spanish School 7-week Placement Test,33,54.06386066763426
 Neshae Johnson,44545,Spanish School 7-week Placement Test,20,NA
-jacob Joseph,46593,Spanish School 7-week Placement Test,37,NA
+jacob Joseph,46593,Spanish School 7-week Placement Test,37,59.14368650217706
 Beatrix Karambis,45235,Spanish School 7-week Placement Test,NA,NA
 Harry Katz,46149,Spanish School 7-week Placement Test,28,32.32946298984035
 Julia Kosinski,45050,Spanish School 7-week Placement Test,NA,NA
@@ -77,14 +77,14 @@ Kiara Luv,45129,Spanish School 7-week Placement Test,17,40.021770682148045
 Amber Lynch,39723,Spanish School 7-week Placement Test,28,53.301886792452834
 Natalia Ma,45102,Spanish School 7-week Placement Test,41,49.165457184325106
 Marcus Mack,44572,Spanish School 7-week Placement Test,35,NA
-Catalina Mackaman-Lofland,44580,Spanish School 7-week Placement Test,39,NA
+Kiki Mackaman-Lofland,44580,Spanish School 7-week Placement Test,39,NA
 Joseph Maher,46131,Spanish School 7-week Placement Test,23,NA
 Julianna Martinez,23618,Spanish School 7-week Placement Test,NA,NA
 Natalie Martinez,44663,Spanish School 7-week Placement Test,15,NA
-Selena Maxwell,44525,Spanish School 7-week Placement Test,31,NA
+Summer Maxwell,44525,Spanish School 7-week Placement Test,31,NA
 Caroline McCarthy,46073,Spanish School 7-week Placement Test,29,64.91291727140784
 MJUDITH MCKAY,44538,Spanish School 7-week Placement Test,39,NA
-Meredith Menache,44700,Spanish School 7-week Placement Test,26,NA
+Meredith Menache Erickson,44700,Spanish School 7-week Placement Test,26,NA
 Lilly Mitchell,38613,Spanish School 7-week Placement Test,NA,NA
 Michael Mock,44535,Spanish School 7-week Placement Test,22,NA
 Hayes Orr,45623,Spanish School 7-week Placement Test,35,53.19303338171263
@@ -99,7 +99,7 @@ Natalie Rawlings,43484,Spanish School 7-week Placement Test,34,NA
 Carolyn Reid,45138,Spanish School 7-week Placement Test,21,54.02757619738752
 Chanell Robinson,44563,Spanish School 7-week Placement Test,7,NA
 Noah Robison,44721,Spanish School 7-week Placement Test,35,66.7634252539913
-Donald Roch,44597,Spanish School 7-week Placement Test,28,46.666666666666664
+Don Roch,44597,Spanish School 7-week Placement Test,28,NA
 Kris Rose,46341,Spanish School 7-week Placement Test,35,NA
 Joseph Roughneen,46237,Spanish School 7-week Placement Test,20,NA
 Rebekah Salazar,45035,Spanish School 7-week Placement Test,40,82.9100145137881
@@ -128,6 +128,7 @@ Christopher Treston,46454,Spanish School 7-week Placement Test,20,44.70246734397
 Christopher Trummer,45132,Spanish School 7-week Placement Test,40,61.97387518142234
 Diane Underhill,45041,Spanish School 7-week Placement Test,27,NA
 Sciana Vertusma,45422,Spanish School 7-week Placement Test,34,59.90566037735849
+ZhiyiAgnes Wang,46695,Spanish School 7-week Placement Test,12,NA
 ZhiyiAgnes Wang,41572,Spanish School 7-week Placement Test,2,NA
 Kevin Washington,44823,Spanish School 7-week Placement Test,35,NA
 Asa Waterworth,24455,Spanish School 7-week Placement Test,21,NA
