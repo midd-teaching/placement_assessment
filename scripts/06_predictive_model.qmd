@@ -107,7 +107,12 @@ mod_lt_placement <- brm(
 
 pred_dat <- dat_2024 |> 
   filter(!is.na(score_exam) & !is.na(score_lt)) |> 
-  select(id, score_exam, score_lt)
+  select(id, score_exam, score_lt) |> 
+  add_row(
+    id = 11111, 
+    score_exam = 16, 
+    score_lt = 0, 
+  )
 
 preds <- predictions(
   model = mod_lt_placement, 
@@ -168,12 +173,12 @@ preds |>
 
 
 medians <- preds |> 
-  filter(id == "44531") |> 
+  filter(id == "11111") |> 
   group_by(group_lab) |> 
   mean_qi(draw)
 
 preds |> 
-  filter(id == "44531") |> 
+  filter(id == "11111") |> 
   ggplot() + 
   aes(x = group_lab, y = draw) + 
   geom_segment(
