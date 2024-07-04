@@ -110,8 +110,8 @@ pred_dat <- dat_2024 |>
   select(id, score_exam, score_lt) |> 
   add_row(
     id = 11111, 
-    score_exam = 16, 
-    score_lt = 0, 
+    score_exam = 20, 
+    score_lt   = 40, 
   )
 
 preds <- predictions(
