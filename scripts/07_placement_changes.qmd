@@ -1,0 +1,168 @@
+---
+title: "Middlebury placement assessment"
+subtitle: "Course changes"
+author: "Joseph V. Casillas"
+date: today
+execute: 
+  warning: false
+  message: false
+---
+
+Load libraries, helper functions, and data. 
+
+```{r}
+#| label: setup
+source(here::here("scripts", "05_load_data.R"))
+```
+
+```{r}
+#| label: load-change-file
+
+dat <- read_xlsx(here("data", "raw", "SPAN 7 - 2024 w placement scores.xlsx")) |> 
+  clean_names() |> 
+  select(
+    id = last_name, placement_test, lex_tale, level = language_level, 
+    placement_test_level, actual_placement = actual_placement_8, change
+  ) |> 
+  filter(change == 1) |> 
+  mutate(
+    moved = case_when(
+      level == "1" ~ "up", 
+      level == "1.5" & actual_placement %in% c("1.0", "1.5E") ~ "down", 
+      level == "1.5" & actual_placement %in% c("2.0", "3.0", "4.0") ~ "up", 
+      level == "2" & actual_placement %in% c("1.5", "1.5E", "1.0") ~ "down", 
+      level == "2" & actual_placement %in% c("3.0", "4.0") ~ "up", 
+      level == "3" & actual_placement %in% c("2.0", "1.5", "1.5E", "1.0") ~ "down", 
+      level == "3" & actual_placement == "4.0" ~ "up", 
+      level == "4" ~ "down"
+    )
+  )
+```
+
+
+```{r}
+dat |> 
+  ggplot() + 
+  aes(x = placement_test, y = lex_tale, color = moved) + 
+  geom_point()
+
+
+```
+
+
+
+
+
+```{r}
+#| label: fig-model-pred-ex
+#| fig-asp: 0.56
+#| fig-dpi: 300
+#| echo: false
+
+pred_dat <- dat |> 
+  select(
+    id, 
+    score_exam = placement_test, 
+    score_lt = lex_tale, 
+    actual_placement, 
+    moved
+  ) |> 
+  mutate(score_exam = as.numeric(score_exam), score_lt = as.numeric(score_lt))
+
+preds <- predictions(
+  model = mod_lt_placement, 
+  newdata = pred_dat, 
+  type = "response"
+) |> 
+  posterior_draws() |> 
+  mutate(id = as.factor(id)) 
+
+# Summarize predictions for each ID that has taken the placement and LT
+preds |> 
+  group_by(id, group) |> 
+  median_qi(draw) |> 
+  mutate_if(is.numeric, round, digits = 2) |> 
+  transmute(
+    id, 
+    draw, .lower, .upper, 
+    group_lab = case_when(
+      group == "1" ~ "1", 
+      group == "2" ~ "1.5", 
+      group == "3" ~ "2", 
+      group == "4" ~ "3", 
+      group == "5" ~ "4", 
+      group == "6" ~ "Master"
+    )
+  ) |> 
+  pivot_wider(
+    names_from = "group_lab", 
+    values_from = c("draw", ".lower", ".upper")
+  ) |> 
+  transmute(
+    id, 
+    level_1 = draw_1, 
+    level_1_ci = glue("[{.lower_1}, {.upper_1}]"), 
+    level_1.5 = draw_1.5, 
+    level_1.5_ci = glue("[{.lower_1.5}, {.upper_1.5}]"), 
+    level_2 = draw_2, 
+    level_2_ci = glue("[{.lower_2}, {.upper_2}]"), 
+    level_3 = draw_3, 
+    level_3_ci = glue("[{.lower_3}, {.upper_3}]"), 
+    level_4 = draw_4, 
+    level_4_ci = glue("[{.lower_4}, {.upper_4}]"), 
+    master = draw_Master, 
+    master_ci = glue("[{.lower_Master}, {.upper_Master}]") 
+  ) 
+
+
+medians <- preds |> 
+  group_by(id, group) |> 
+  mean_qi(draw)
+
+numbers <- select(
+  dat, id, level, actual_placement, place = placement_test, lt  = lex_tale, moved
+  ) |> 
+  mutate(
+    level = glue("Original placement: {level}"), 
+    actual = glue("Moved to: {actual_placement}"), 
+    place = glue("Test: {place}"), 
+    lt = glue("LexTALE: {lt}"), 
+    moved = glue("Moved: {moved}")
+  )
+
+preds |> 
+  ggplot() + 
+  aes(x = group, y = draw) + 
+  facet_wrap(~id) + 
+  geom_segment(
+    data = medians, 
+    aes(x = group, y = .lower, yend = .upper), 
+    linewidth = 3, lineend = "round", color = "grey60"
+  ) + 
+  geom_point(
+    data = medians, 
+    aes(x = group, y = draw), 
+    pch = 21, stroke = 2, size = 3
+  ) + 
+  geom_text(
+    data = numbers, 
+    aes(x = 1, y = 1, label = level), size = 2, hjust = 0
+  ) + 
+  geom_text(
+    data = numbers, 
+    aes(x = 1, y = 0.9, label = actual), size = 2, hjust = 0
+  ) + 
+  geom_text(
+    data = numbers, 
+    aes(x = 1, y = 0.8, label = place), size = 2, hjust = 0
+  ) + 
+  geom_text(
+    data = numbers, 
+    aes(x = 1, y = 0.7, label = lt), size = 2, hjust = 0
+  ) + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(x = NULL, y = "p(level)") + 
+  ds4ling::ds4ling_bw_theme()
+
+```
+

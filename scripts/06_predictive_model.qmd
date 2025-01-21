@@ -56,7 +56,7 @@ dat_2023 |>
   ) + 
   scale_fill_viridis_d(name = NULL) + 
   coord_cartesian(xlim = c(-2, 2), ylim = c(-2, 2)) + 
-  ds4ling::ds4ling_bw_theme(base_family = "Palatino")
+  ds4ling::ds4ling_bw_theme()
 ```
 
 
@@ -193,7 +193,7 @@ preds |>
   ) + 
   coord_cartesian(ylim = c(0, 1)) + 
   labs(x = NULL, y = "p(level)") + 
-  ds4ling::ds4ling_bw_theme(base_family = "Palatino")
+  ds4ling::ds4ling_bw_theme()
 
 ```
 

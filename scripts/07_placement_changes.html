@@ -59,16 +59,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="06_predictive_model_files/libs/clipboard/clipboard.min.js"></script>
-<script src="06_predictive_model_files/libs/quarto-html/quarto.js"></script>
-<script src="06_predictive_model_files/libs/quarto-html/popper.min.js"></script>
-<script src="06_predictive_model_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="06_predictive_model_files/libs/quarto-html/anchor.min.js"></script>
-<link href="06_predictive_model_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="06_predictive_model_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="06_predictive_model_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="06_predictive_model_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="06_predictive_model_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="07_placement_changes_files/libs/clipboard/clipboard.min.js"></script>
+<script src="07_placement_changes_files/libs/quarto-html/quarto.js"></script>
+<script src="07_placement_changes_files/libs/quarto-html/popper.min.js"></script>
+<script src="07_placement_changes_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="07_placement_changes_files/libs/quarto-html/anchor.min.js"></script>
+<link href="07_placement_changes_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="07_placement_changes_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="07_placement_changes_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="07_placement_changes_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="07_placement_changes_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -82,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Middlebury placement assessment</h1>
-<p class="subtitle lead">Fit predictive model</p>
+<p class="subtitle lead">Course changes</p>
 </div>
 
 
@@ -116,62 +116,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"scripts"</span>, <span class="st">"05_load_data.R"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="cell-output-display">
-<div id="fig-lt-exam" class="quarto-float quarto-figure quarto-figure-center anchored" width="2100">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lt-exam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="06_predictive_model_files/figure-html/fig-lt-exam-1.png" id="fig-lt-exam" class="img-fluid figure-img" width="2100">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-lt-exam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>mod_null <span class="ot">&lt;-</span> <span class="fu">brm</span>(</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">formula =</span> level_n <span class="sc">~</span> <span class="dv">1</span>, </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">family =</span> <span class="fu">cumulative</span>(<span class="st">"probit"</span>), </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> dat_2023, </span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">chains =</span> <span class="dv">4</span>, <span class="at">cores =</span> <span class="dv">4</span>, <span class="at">threads =</span> <span class="fu">threading</span>(<span class="dv">2</span>), </span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">file =</span> <span class="fu">here</span>(<span class="st">"models"</span>, <span class="st">"mod_null"</span>)</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>mod_lt <span class="ot">&lt;-</span> <span class="fu">brm</span>(</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">formula =</span> level_n <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> score_lt, </span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">family =</span> <span class="fu">cumulative</span>(<span class="st">"probit"</span>), </span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> dat_2023, </span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">chains =</span> <span class="dv">4</span>, <span class="at">cores =</span> <span class="dv">4</span>, <span class="at">threads =</span> <span class="fu">threading</span>(<span class="dv">2</span>), </span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">file =</span> <span class="fu">here</span>(<span class="st">"models"</span>, <span class="st">"mod_lt"</span>)</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>mod_placement <span class="ot">&lt;-</span> <span class="fu">brm</span>(</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">formula =</span> level_n <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> score_exam, </span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">family =</span> <span class="fu">cumulative</span>(<span class="st">"probit"</span>), </span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> dat_2023, </span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">chains =</span> <span class="dv">4</span>, <span class="at">cores =</span> <span class="dv">4</span>, <span class="at">threads =</span> <span class="fu">threading</span>(<span class="dv">2</span>), </span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">file =</span> <span class="fu">here</span>(<span class="st">"models"</span>, <span class="st">"mod_placement"</span>)</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>mod_lt_placement <span class="ot">&lt;-</span> <span class="fu">brm</span>(</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">formula =</span> level_n <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> score_lt <span class="sc">+</span> score_exam, </span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="at">family =</span> <span class="fu">cumulative</span>(<span class="st">"probit"</span>), </span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> dat_2023, </span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">chains =</span> <span class="dv">4</span>, <span class="at">cores =</span> <span class="dv">4</span>, <span class="at">threads =</span> <span class="fu">threading</span>(<span class="dv">2</span>), </span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">file =</span> <span class="fu">here</span>(<span class="st">"models"</span>, <span class="st">"mod_lt_placement"</span>)</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-model-pred-ex" class="quarto-float quarto-figure quarto-figure-center anchored" width="2100">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-model-pred-ex-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="06_predictive_model_files/figure-html/fig-model-pred-ex-1.png" id="fig-model-pred-ex" class="img-fluid figure-img" width="2100">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-model-pred-ex-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">read_xlsx</span>(<span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"raw"</span>, <span class="st">"SPAN 7 - 2024 w placement scores.xlsx"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">name =</span> last_name, placement_test, lex_tale, <span class="at">level =</span> language_level, </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    placement_test_level, <span class="at">actual_placement =</span> actual_placement_8, change</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(change <span class="sc">==</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 22 × 7
+   name     placement_test lex_tale level placement_test_level actual_placement
+   &lt;chr&gt;    &lt;chr&gt;          &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;                &lt;chr&gt;           
+ 1 Avery    33             55       1.5   &lt;NA&gt;                 2.0             
+ 2 Bennett  22             39       1     1.5                  1.5             
+ 3 Castillo 32             49       1     1                    3.0             
+ 4 Chaney   20             41       1.5   1.5                  1.5E            
+ 5 Darkaoui 24             45       1     1.5                  1.5             
+ 6 Fishkin  16             0        1.5   1.5                  1.0             
+ 7 Friedman 33             54       2     &lt;NA&gt;                 3.0             
+ 8 Garza    21             37       2     &lt;NA&gt;                 1.5E            
+ 9 Hatch    24             46       1     &lt;NA&gt;                 1.5             
+10 Havlik   32             43       1.5   2                    2.0             
+# ℹ 12 more rows
+# ℹ 1 more variable: change &lt;dbl&gt;</code></pre>
 </div>
 </div>
 
